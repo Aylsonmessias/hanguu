@@ -23,10 +23,10 @@ body {
 }
 
 .card-signin .card-img-left {
-  width: 45%;
+
   /* Link to your background image using in the property below! */
   width: 58%;
-  background: scroll center url('hhttps://github.com/Aylsonmessias/hanguu/blob/5fa6f6ad494f43e660861e74f06189ab89a74dd0/assets/img/card-cadastro.png?raw=true');
+  background: scroll center url('https://github.com/Aylsonmessias/hanguu/blob/master/assets/img/card-cadastro.png?raw=true');
   background-size: cover;
 }
 
