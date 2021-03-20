@@ -5,7 +5,7 @@
 
 body {
   background: #007bff;
-  background: linear-gradient(to right, #ffffff, #bfc0c0);
+  background: linear-gradient(to right, #ffffff, #eff0f0);
 }
 
 .card-signin {
@@ -16,6 +16,7 @@ body {
 }
 
 .card-signin .card-title {
+  font-style: unset;
   margin-bottom: 2rem;
   font-weight: 300;
   font-size: 1.5rem;

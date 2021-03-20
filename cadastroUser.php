@@ -12,38 +12,40 @@ include "_includes/header.php"
              <!-- Background image for card set in CSS! -->
           </div>
           <div class="card-body">
-            <h5 class="card-title text-center">Register</h5>
-            <form class="form-signin">
+            <h5 class="card-title text-center">Cadastre-se</h5>
+                  <form class="form-signin">
               <div class="form-label-group">
-                <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
-                <label for="inputUserame">Username</label>
+                
+              <input type="text" id="inputUserame" class="form-control" placeholder="Nome" required autofocus>
+                <label for="inputUserame">Nome</label>
               </div>
 
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
-                <label for="inputEmail">Email address</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required>
+                <label for="inputEmail">E-mail</label>
               </div>
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
-                <label for="inputEmail">Email address</label>
+                <input type="text" id="inputtext" class="form-control" placeholder="Endereço" required>
+                <label for="inputtext">Endereço</label>
               </div>
               <hr>
 
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                <label for="inputPassword">Password</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="digite sua senha" required>
+                <label for="inputPassword">Senha</label>
               </div>
               
               <div class="form-label-group">
                 <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
-                <label for="inputConfirmPassword">Confirm password</label>
+                <label for="inputConfirmPassword">Confirma senha</label>
               </div>
 
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
-              <a class="d-block text-center mt-2 small" href="login.php">Sign In</a>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Cadastar</button>
+              <a class="d-block text-center mt-2 small" href="login.php">Login</a>
+              
               <hr class="my-4">
-              <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign up with Google</button>
-              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign up with Facebook</button>
+              <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Cadastar com o Google</button>
+              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Cadastar com o Facebook</button>
             </form>
           </div>
         </div>
