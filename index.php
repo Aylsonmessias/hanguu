@@ -29,7 +29,7 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Bem vindos a melhor plataforma para </div>
+                <div class="masthead-subheading">Bem vindos a melhor plataforma de </div>
                 <div class="masthead-heading text-uppercase">Delivery de Comida</div>
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Criar Conta</a>
             
