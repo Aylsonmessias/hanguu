@@ -24,7 +24,8 @@ body {
 .card-signin .card-img-left {
   width: 45%;
   /* Link to your background image using in the property below! */
-  background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+  width: 58%;
+  background: scroll center url('https://github.com/Aylsonmessias/hanguu/blob/master/assets/img/card-cadastro.png?raw=true');
   background-size: cover;
 }
 
@@ -46,6 +47,7 @@ body {
 }
 
 .form-label-group {
+  font-family: ;
   position: relative;
   margin-bottom: 1rem;
 }

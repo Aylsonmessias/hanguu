@@ -23,7 +23,10 @@ include "_includes/header.php"
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
                 <label for="inputEmail">Email address</label>
               </div>
-              
+              <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+                <label for="inputEmail">Email address</label>
+              </div>
               <hr>
 
               <div class="form-label-group">
