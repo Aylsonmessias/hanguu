@@ -6,34 +6,28 @@
 
    ?>
     <body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="#">Start Bootstrap</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<header>
+    <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Lojas</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Como Funciona?</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="cadastroUser.php">Cadastre-se</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.php">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Slide -->
+        <header>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -75,41 +69,24 @@
 </header>
 
 <!-- Page Content -->
-<section class="py-5">
+
+<!-- <section class="py-5">
   <div class="container">
     <h1 class="font-weight-light">Half Page Image Slider</h1>
     <p class="lead">The background images for the slider are set directly in the HTML using inline CSS. The images in this snippet are from <a href="https://unsplash.com">Unsplash</a>!</p>
   </div>
-</section>
-        <!-- Navigation-->
-       <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ml-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="cadastroUser.php">Cadastre-se</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.php">Login</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>-->
+</section> -->
+
         <!-- Masthead-->
-        <header class="masthead">
+        <!--<header class="masthead">
             <div class="container">
                 <div class="masthead-subheading">Bem vindos a melhor plataforma de </div>
                 <div class="masthead-heading text-uppercase">Delivery de Comida</div>
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Criar Conta</a>
             
             </div>
-        </header>
+        </header> -->
+
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container">

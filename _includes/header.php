@@ -14,5 +14,6 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/cadastro.css" rel ="stylesheet"/>
+        <link href="css/slide.css" rel ="stylesheet"/>
     </head>
   
