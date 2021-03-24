@@ -21,6 +21,7 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Como Funciona?</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="cadastroUser.php">Cadastre-se</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="cadastroloja.php">Cadastre sua Loja</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.php">Login</a></li>
                     </ul>
                 </div>
