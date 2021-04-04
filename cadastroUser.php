@@ -48,7 +48,7 @@ include "_includes/header.php"
                   <form role="form" name="formUsuario"  method="POST" >
               <div class="form-label-group">
                 
-              <input type="text" id="nome"  name="nome" class="form-control" placeholder="nome do usuario" required autofocus>
+              <input type="text" id="nome"  name="nome" class="form-control" placeholder="nome do usuario" required >
                 <label for="nome">Nome</label>
               </div>
               
