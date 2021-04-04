@@ -4,6 +4,38 @@ include "_includes/header.php"
 <!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
 
 <body>
+<?php
+    include ("conexao.php");
+    $conn = connection();
+
+    try{
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+
+    // prepare sql and bind parameters
+    $stmt = $conn->prepare("INSERT INTO usuario (nome, email, senha)
+    VALUES (:nome, :email, :senha)");
+
+    $stmt->bindParam(':nome', $nome);
+    $stmt->bindParam(':email', $email);
+    $stmt->bindParam(':senha', $senha);
+
+
+    $nome     = $_POST['nome'];
+    $email    = $_POST['email'];
+    $senha    = $_POST['senha'];
+
+
+    $stmt->execute();
+
+
+    echo "usuario cadastrado com sucesso!";
+    } catch(PDOException $e) {
+    echo "Error: " . $e->getMessage();
+    }
+    $conn = null;
+
+?> 
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-xl-9 mx-auto">
@@ -13,30 +45,28 @@ include "_includes/header.php"
           </div>
           <div class="card-body">
             <h5 class="card-title text-center" >CADASTRE-SE</h5>
-                  <form class="form-signin">
+                  <form role="form" name="formUsuario"  method="POST" >
               <div class="form-label-group">
                 
-              <input type="text" id="inputUserame" class="form-control" placeholder="Nome" required autofocus>
-                <label for="inputUserame">Nome</label>
+              <input type="text" id="nome"  name="nome" class="form-control" placeholder="nome do usuario" required autofocus>
+                <label for="nome">Nome</label>
               </div>
+              
 
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required>
-                <label for="inputEmail">E-mail</label>
+                <input type="text" id="email" name="email" class="form-control" placeholder="email" required>
+                <label for="email">E-mail</label>
               </div>
+            
+              
               <div class="form-label-group">
-                <input type="text" id="inputtext" class="form-control" placeholder="Endereço" required>
-                <label for="inputtext">Endereço</label>
+                <input type="password" id="senha" name="senha" class="form-control" placeholder="digite sua senha" required>
+                <label for="senha">Senha</label>
               </div>
               
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="digite sua senha" required>
-                <label for="inputPassword">Senha</label>
-              </div>
-              
-              <div class="form-label-group">
-                <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
-                <label for="inputConfirmPassword">Confirmar senha</label>
+                <input type="password" id="senha" name="senha" class="form-control" placeholder="senha" required>
+                <label for="senha">Confirmar senha</label>
               </div>
 
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Cadastar</button>
