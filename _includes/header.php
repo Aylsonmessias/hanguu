@@ -15,5 +15,6 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/cadastro.css" rel ="stylesheet"/>
         <link href="css/slide.css" rel ="stylesheet"/>
+        <link href="css/tipodecadastro.css" rel ="stylesheet"/>
     </head>
   
