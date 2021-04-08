@@ -140,7 +140,7 @@
                                 <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Humburgures</div>
+                                <div class="portfolio-caption-heading">Humbúrgueres</div>
                                 <div class="portfolio-caption-subheading text-muted">Illustration</div>
                             </div>
                         </div>
