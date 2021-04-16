@@ -3,8 +3,8 @@
 
 <?php
    include "_includes/header.php"
-
    ?>
+
     <body id="page-top">
     <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -228,7 +228,7 @@
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.png" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Acesse </h4>
@@ -238,7 +238,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.png" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Se cadastre</h4>
@@ -248,7 +248,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.png" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Cadastre sua Loja</h4>
@@ -258,7 +258,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.png" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Adcione o</h4>
@@ -326,7 +326,8 @@
             </div>
         </section> -->
         <!-- Clients-->
-        <div class="py-5">
+        
+      <!--  <div class="py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-6 my-3">
@@ -343,7 +344,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
       
        <?php
        include "_includes/footer.php"
