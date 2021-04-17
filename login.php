@@ -1,37 +1,34 @@
 
 
-<?php 
-
-include "_includes/header.php"
-?>
-<body>
 <?php
-include "conexao.php";
-
-?>
-
-
-    
+   include("conexao.php");
+   session_start();
+   
+   if($_SERVER["REQUEST_METHOD"] == "POST") {
+      // username and password sent from form 
+      
+      $email = mysqli_real_escape_string($db,$_POST['email']);
+      $mypassword = mysqli_real_escape_string($db,$_POST['senha']); 
+      
+      $Mysql = "SELECT id FROM admin WHERE username = '$myusername' and passcode = '$mypassword'";
+      $result = mysqli_query($db,$Mysql);
+      $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+      $active = $row['active'];
+      
+      $count = mysqli_num_rows($result);
+      
+      // If result matched $myusername and $mypassword, table row must be 1 row
+		
+      if($count == 1) {
+         session_register("myusername");
+         $_SESSION['login_user'] = $myusername;
          
-         <?php
-            $msg = '';
-            
-            if (isset($_POST['email']) && !empty($_POST['id']) 
-               && !empty($_POST['senha'])) {
-				
-               if ($_POST[' '] == 'tutorialspoint' && 
-                  $_POST['senha'] == ':senha') {
-                  $_SESSION['valid'] = true;
-                  $_SESSION['timeout'] = time();
-                  $_SESSION['username'] = 'tutorialspoint';
-                  
-                  echo 'You have entered valid use name and password';
-               }else {
-                  $msg = 'Wrong username or password';
-               }
-            }
-         ?>
-      </div> <!-- /container -->
+         header("location: welcome.php");
+      }else {
+         $error = "Your Login Name or Password is invalid";
+      }
+   }
+?>
       <!--
       <div class = "container">
       
