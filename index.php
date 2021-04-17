@@ -22,14 +22,15 @@
                         <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li> -->
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodecadastro.php">Cadastre-se</a></li>
                         <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="cadastroloja.php">Cadastre sua Loja</a></li> -->
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.php">Login</a></li>                 
-                    
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.php">Login</a></li>                     
                     </ul>
                 </div>
             </div>
         </nav>
         <!--Slide -->
         <header>
+
+        
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -189,8 +190,17 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Quem somos</h2>
-                    <h3 class="section-subheading text-muted">Somos uma plataforma para o delivery do seu negócio! </h3>
-                </div>
+                    <img class="img-fluid" src="assets/img/LOGOHANGUU.png"/>
+                    <p class="section-subheading text-muted">Somos uma plataformaplataforma de delivery que
+tem como objetivo ajudar
+pequenos e médios 
+negócios a inserirem a sua
+loja no mundo digital e
+trazer comodidade para 
+quem deseja aquele pedido
+de forma rápida. </p>
+
+                <!-- </div>
                 <div class="row text-center">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -218,7 +228,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- About-->
         <section class="page-section" id="about">
             <div class="container">
