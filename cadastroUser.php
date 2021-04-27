@@ -65,8 +65,8 @@ include "_includes/header.php";
               </div>
               
               <div class="form-label-group">
-                <input type="password" id="senha" name="senha" class="form-control" placeholder="senha" required>
-                <label for="senha">Confirmar senha</label>
+                <input type="password" id="confirsenha" name="confirsenha" class="form-control" placeholder="senha" required>
+                <label for="confirsenha">Confirmar senha</label>
               </div>
 
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Cadastar</button>

@@ -8,7 +8,6 @@
 </head>
 <body>
     
-    <h1>QUAL SERIA SEU LAN
-    CHE?</h1>
+    <h1>Login Realizado com sucesso!</h1>
 </body>
 </html>
