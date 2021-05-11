@@ -1,30 +1,35 @@
 <?php
-    include ("conexao.php");
-    $conn = connection();
 
-    try{
-    // set the PDO error mode to exception
-    $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+
+
+require 'Model/Conexao.php';
+
+
+// TESTANDO O BOTÃO DE CADASTRADO
+if (isset($_POST['btnCadastrar'])) :
+
+    $nome        = $_POST['nome'];    
+    $senha            = $_POST['senha'];
+    $email            = $_POST['email'];
+
+
 
     // prepare sql and bind parameters
-    $stmt = $conn->prepare("INSERT INTO usuario (nome, email, senha)
-    VALUES (:nome, :email, :senha)");
+    $sql = 'INSERT INTO usuario (nome,senha,email) VALUES (?,?,?)';
 
-    $stmt->bindParam(':nome', $nome);
-    $stmt->bindParam(':email', $email);
-    $stmt->bindParam(':senha', $senha);
+    $stmt = Conexao::getConn()->prepare($sql);
+    $stmt->bindValue(1, $nome);
+    
+   
+    $stmt->bindValue(2, $senha);
+    $stmt->bindValue(3, $email);
 
-
-    $nome                    = $_POST['nome'];
-    $email                   = $_POST['email'];
-    $senha                   = $_POST['senha'];
     $stmt->execute();
 
 
     echo "usuario cadastrado com sucesso!";
-    } catch(PDOException $e) {
-    echo "Error: " . $e->getMessage();
-    }
-    $conn = null;
+endif;
 
-?> 
+
+include __DIR__ . '/_includes/header.php';
+include __DIR__ . '/cadastroUser.php';

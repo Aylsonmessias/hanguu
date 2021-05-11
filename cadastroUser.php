@@ -4,38 +4,7 @@ include "_includes/header.php";
 <!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
 
 <body>
-<?php
- require 'Model/Conexao.php';
-    $conn =  Conexao::getConn();
 
-    try{
-    // set the PDO error mode to exception
-    $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-
-    // prepare sql and bind parameters
-    $stmt = $conn->prepare("INSERT INTO usuario (nome, email, senha)
-    VALUES (:nome, :email, :senha)");
-
-    $stmt->bindParam(':nome', $nome);
-    $stmt->bindParam(':email', $email);
-    $stmt->bindParam(':senha', $senha);
-
-
-    $nome     = $_POST['nome'];
-    $email    = $_POST['email'];
-    $senha    = $_POST['senha'];
-
-
-    $stmt->execute();
-
-
-    echo "usuario cadastrado com sucesso!";
-    } catch(PDOException $e) {
-    echo "Error: " . $e->getMessage();
-    }
-    $conn = null;
-
-?> 
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-xl-9 mx-auto">
@@ -69,7 +38,7 @@ include "_includes/header.php";
                 <label for="confirsenha">Confirmar senha</label>
               </div>
 
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Cadastar</button>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" name="btnCadastrar" type="submit">Cadastar</button>
               <a class="d-block text-center mt-2 small" href="login.php">REALIZAR LOGIN</a>
             
               
