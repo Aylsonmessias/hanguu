@@ -9,8 +9,8 @@
       <div class="col-lg-4">
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Cadastro de</h5>
-            <h6 class="card-price text-center">LOJA<span class="period"></span></h6>
+            <h5 class="card-title text-muted text-uppercase text-center">COMO</h5>
+            <h6 class="card-price text-center">ADMIN<span class="period"></span></h6>
             <hr>
            <!-- <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
@@ -31,7 +31,7 @@
       <div class="col-lg-4">
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Cadastro de </h5>
+            <h5 class="card-title text-muted text-uppercase text-center">COMO</h5>
             <h6 class="card-price text-center">CLIENTE<span class="period"></span></h6>
             <hr>
             <!-- <ul class="fa-ul">
@@ -45,6 +45,7 @@
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
             </ul> -->
             <a href="cadastrouser.php" class="btn btn-block btn-primary text-uppercase">Cadastre-se</a>
+            <a href="login.php" class="btn btn-block btn-primary text-uppercase">Login</a>
           </div>
         </div>
       </div>
