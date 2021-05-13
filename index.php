@@ -9,7 +9,7 @@
     <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/logohanguu.svg"/></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu1
                     <i class="fas fa-bars ml-1"></i>
@@ -31,7 +31,7 @@
     <title>Awesome Search Box</title>
    
   <!-- Coded with love by Mutiullah Samim-->
-  <body>
+  <!-- <body>
     <div class="container h-100">
       <div class="d-flex justify-content-center h-100">
         <div class="searchbar">
@@ -41,7 +41,7 @@
       </div>
     </div>
   </body>
-</html>
+</html> -->
 
 
         </nav>
@@ -97,7 +97,7 @@
  <header class="masthead">
             <div class="container">
                 <div class="masthead-subheading">Bem vindos a melhor plataforma de </div>
-                <div class="masthead-heading text-uppercase">Delivery de Comida</div>
+                <div class="masthead-heading text-uppercase">Delivery</div>
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Fazer Pedido</a>
             
             </div>
@@ -110,7 +110,7 @@
 
         <!-- Masthead-->
        
-        </header> 
+
 
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
