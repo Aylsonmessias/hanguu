@@ -1,7 +1,7 @@
 <?php
    include "_includes/header.php"
-
    ?>
+   
 <section class="pricing py-5">
   <div class="container">
     <div class="row">
@@ -48,6 +48,14 @@
             <a href="login.php" class="btn btn-block btn-primary text-uppercase">Login</a>
           </div>
         </div>
+
+        <div>
+        <a href="index.php" class="home-button">
+          <img  src="assets/img/home.png" alt="botão home"/>
+    </a>
+    </div>
+
+
       </div>
       <!-- Pro Tier
       <div class="col-lg-4">
@@ -72,4 +80,21 @@
       </div>
     </div>
   </div> 
-</section>
+</section>-->
+<footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left"> 2021© Startech Develop. Todos os direitos reservados </div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-right">
+                        <a class="mr-3" href="#!">Privacy Policy</a>
+                        <a href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    

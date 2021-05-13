@@ -18,10 +18,7 @@
         <link href="css/cadastro.css" rel ="stylesheet"/>
         <link href="css/slide.css" rel ="stylesheet"/>
         <link href="css/tipodecadastro.css" rel ="stylesheet"/>
-        <link href="css/cont.css" rel ="stylesheet"/>
-        <link href="css/search.css" rel="stylesheet" id="bootstrap-css">
-        <link href="css/search.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link href="css/search.css" rel="stylesheet" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <link href="css/whatsapp.css" rel ="stylesheet"/>
+        <link href="css/button.css" rel ="stylesheet"/>
     </head>
   
