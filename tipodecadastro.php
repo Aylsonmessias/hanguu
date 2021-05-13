@@ -23,7 +23,7 @@
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
             </ul>-->
             <a href="cadastroloja.php" class="btn btn-block btn-primary text-uppercase">Cadastre-se</a>
-            <a href="loginView.php" class="btn btn-block btn-primary text-uppercase">Login</a>
+            <a href="loginadmin.php" class="btn btn-block btn-primary text-uppercase">Login</a>
           </div>
         </div>
       </div>
@@ -47,16 +47,18 @@
             <a href="cadastrouser.php" class="btn btn-block btn-primary text-uppercase">Cadastre-se</a>
             <a href="login.php" class="btn btn-block btn-primary text-uppercase">Login</a>
           </div>
+          
         </div>
 
+      
         <div>
         <a href="index.php" class="home-button">
-          <img  src="assets/img/home.png" alt="botão home"/>
+          <img  src="assets/img/home.png" align="" alt="botão home"/>
     </a>
     </div>
-
-
       </div>
+    
+
       <!-- Pro Tier
       <div class="col-lg-4">
         <div class="card">
@@ -81,20 +83,7 @@
     </div>
   </div> 
 </section>-->
-<footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left"> 2021© Startech Develop. Todos os direitos reservados </div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-right">
-                        <a class="mr-3" href="#!">Privacy Policy</a>
-                        <a href="#!">Terms of Use</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    
+      <?php
+       include"_includes/footer.php"
+       
+       ?>
