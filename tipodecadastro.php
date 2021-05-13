@@ -23,6 +23,7 @@
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
             </ul>-->
             <a href="cadastroloja.php" class="btn btn-block btn-primary text-uppercase">Cadastre-se</a>
+            <a href="loginView.php" class="btn btn-block btn-primary text-uppercase">Login</a>
           </div>
         </div>
       </div>
