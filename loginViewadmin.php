@@ -22,7 +22,7 @@
                 </div>
                 <button class="btn btn-lg btn-primary btn-block text-uppercase" name="btnEntrar" type="submit">Entrar</button>
 
-                <a class="d-block text-center mt-2 small" href="cadastrouser.php">Ainda não tem uma conta? CADASTRE-SE!</a>
+                <a class="d-block text-center mt-2 small" href="cadastroloja.php">Ainda não tem uma conta? CADASTRE-SE!</a>
 
 
                 

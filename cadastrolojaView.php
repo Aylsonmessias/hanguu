@@ -41,12 +41,12 @@
               </div>
               
               <div class="form-label-group">
-                <input type="password" id="senha" name="senha" class="form-control" placeholder="senha" required>
-                <label for="senha">Confirmar senha</label>
+                <input type="password" id="confsenha" name="confsenha" class="form-control" placeholder="confirmar senha" required>
+                <label for="confsenha">Confirmar senha</label>
               </div>
 
               <button class="btn btn-lg btn-primary btn-block text-uppercase"  name="btnCadastrar" type="submit">Cadastar</button>
-              <a class="d-block text-center mt-2 small">REALIZAR LOGIN</a>
+              <a class="d-block text-center mt-2 small"href="loginadmin.php">Já é cadastrado? ENTRE!</a>
             
               
              <!-- <hr class="my-4">

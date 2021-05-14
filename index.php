@@ -22,7 +22,7 @@
                         <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li> -->
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodecadastro.php">Cadastre-se</a></li>
                         <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="cadastroloja.php">Cadastre sua Loja</a></li> -->
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.php">Login</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodelogin.php">Login</a></li>
                     </ul>
                 </div>
             </div>
@@ -30,7 +30,7 @@
  
     <title>Awesome Search Box</title>
    
-  <!-- Coded with love by Mutiullah Samim-->
+  <!-- Coded with love by Mutiullah Samim--> 
   <!-- <body>
     <div class="container h-100">
       <div class="d-flex justify-content-center h-100">

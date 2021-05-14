@@ -38,8 +38,8 @@ include "_includes/header.php";
                 <label for="confirsenha">Confirmar senha</label>
               </div>
 
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" name="btnCadastrar" type="submit">Cadastar</button>
-              <a class="d-block text-center mt-2 small" href="login.php">REALIZAR LOGIN</a>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" name="btnCadastrar" type="submit">Cadastrar</button>
+              <a class="d-block text-center mt-2 small" href="login.php">Já é cadastrado? ENTRE!</a>
             
               
               <!-- <hr class="my-4">
