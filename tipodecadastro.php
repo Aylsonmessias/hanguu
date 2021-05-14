@@ -23,7 +23,8 @@
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
             </ul>-->
             <a href="cadastroloja.php" class="btn btn-block btn-primary text-uppercase">Cadastre-se</a>
-            <a href="loginadmin.php" class="btn btn-block btn-primary text-uppercase">Login</a>
+            <a class="d-block text-center mt-2 small" href="loginadmin.php" >Já é cadastrado? ENTRE!</a>
+            <!--<a href="loginadmin.php" class="btn btn-block btn-primary text-uppercase">Login</a>-->
           </div>
         </div>
       </div>
@@ -45,7 +46,8 @@
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
             </ul> -->
             <a href="cadastrouser.php" class="btn btn-block btn-primary text-uppercase">Cadastre-se</a>
-            <a href="login.php" class="btn btn-block btn-primary text-uppercase">Login</a>
+            <a class="d-block text-center mt-2 small" href="login.php" >Já é cadastrado? ENTRE!</a>
+            <!--<a href="login.php" class="btn btn-block btn-primary text-uppercase">Login</a>-->
           </div>
           
         </div>

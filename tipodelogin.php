@@ -25,7 +25,8 @@
             </ul>-->
             
             <a href="loginadmin.php" class="btn btn-block btn-primary text-uppercase">Realizar Login</a>
-            <a href="cadastroloja.php" class="btn btn-block btn-primary text-uppercase">Cadastrar</a>
+            <a class="d-block text-center mt-2 small" href="cadastroloja.php" >CADASTRE-SE AQUI!</a>
+            <!--<a href="cadastroloja.php" class="btn btn-block btn-primary text-uppercase">Cadastrar</a>-->
           </div>
         </div>
       </div>
@@ -49,7 +50,8 @@
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
             </ul> -->
             <a href="login.php" class="btn btn-block btn-primary text-uppercase">Realizar Login</a>
-            <a href="cadastrouser.php" class="btn btn-block btn-primary text-uppercase">Cadastrar</a>
+            <a class="d-block text-center mt-2 small" href="cadastrouser.php" >CADASTRE-SE AQUI!</a>
+            <!--<a href="cadastrouser.php" class="btn btn-block btn-primary text-uppercase">Cadastrar</a>-->
           </div>
           
         </div>
