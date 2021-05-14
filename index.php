@@ -22,7 +22,7 @@
                         <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li> -->
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodecadastro.php">Cadastre-se</a></li>
                         <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="cadastroloja.php">Cadastre sua Loja</a></li> -->
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodelogin.php">Login</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodelogin.php">Entrar</a></li>
                     </ul>
                 </div>
             </div>
