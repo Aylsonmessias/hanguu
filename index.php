@@ -26,23 +26,7 @@
                     </ul>
                 </div>
             </div>
-            <html>
- 
-    <title>Awesome Search Box</title>
-   
-  <!-- Coded with love by Mutiullah Samim--> 
-  <!-- <body>
-    <div class="container h-100">
-      <div class="d-flex justify-content-center h-100">
-        <div class="searchbar">
-          <input class="search_input" type="text" name="" placeholder="O que você busca?">
-          <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
-        </div>
-      </div>
-    </div>
-  </body>
-</html> -->
-
+    
 
         </nav>
         <!--Slide

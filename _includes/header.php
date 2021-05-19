@@ -21,5 +21,6 @@
         <link href="css/tipodecadastro.css" rel ="stylesheet"/>
         <link href="css/whatsapp.css" rel ="stylesheet"/>
         <link href="css/button.css" rel ="stylesheet"/>
+        <link href="css/search.css" rel ="stylesheet"/>
     </head>
   
