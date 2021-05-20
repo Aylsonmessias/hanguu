@@ -51,14 +51,9 @@
           </div>
           
         </div>
+        
+        </div>
 
-      
-        <div>
-        <a href="index.php" class="home-button">
-          <img  src="assets/img/home.png" align="" alt="botão home"/>
-    </a>
-    </div>
-      </div>
     
 
       <!-- Pro Tier
