@@ -18,37 +18,19 @@
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#!"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#!">
-                                Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+     
         <!-- Page Content-->
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
-                    <h1 class="my-4">Cardápio</h1>
+                <div class="col-lg-4">
+                    <h2 class="my-4" >Cardápio</h2>
                     <div class="list-group">
                         <a class="list-group-item" href="#!">Hamburgueres</a>
                         <a class="list-group-item" href="#!">Pizzas</a>
                         <a class="list-group-item" href="#!">Esfihas</a>
                     </div>
                 </div>
-                <div class="col-lg-9">
+                <!-- <div class="col-lg-9">
                     <div class="carousel slide my-4" id="carouselExampleIndicators" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
@@ -68,17 +50,21 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
-                    </div>
+                    </div> -->
+                    <br>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
                                 <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="#!">Item One</a></h4>
-                                    <h5>R$ 24.99</h5>
+                                    <h4 class="card-title"><a href="#!">X Tudo</a></h4>
+                                    <h5>R$ 16.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
-                                <div class="card-footer"><small class="text-muted">★ ★ ★ ★ ☆</small></div>
+                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small>
+                                
+                                </div> 
+                               
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
