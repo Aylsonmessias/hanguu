@@ -76,35 +76,50 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
+                                <a href="#!"><img class="card-img-top" src="https://araujo.vteximg.com.br/arquivos/ids/4042618-1000-1000/07894900010015.jpg/700x400" alt="coca" /></a>
+                                <div class="card-body">
+                                    <h4 class="card-title"><a href="#!">Coca-Cola</a></h4>
+                                    
+                                    <p class="card-text">Lata 350ml</p>
+                                    <h5>R$ 16.99</h5>
+                                </div>
+                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100">
+                                <a href="#!"><img class="card-img-top" src="https://dourados.saofranciscoonline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/e/refrigerante-fanta-laranja-lata-350ml-7894900030013_1.jpg" alt="fanta" /></a>
+                                <div class="card-body">
+                                    <h4 class="card-title"><a href="#!">Fanta</a></h4>
+                                    
+                                    <p class="card-text">Lata 350ml</p>
+                                    <h5>R$ 24.99</h5>
+                                </div>
+                                
+                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100">
+                                <a href="#!"><img class="card-img-top" src="" alt="cajuina" /></a>
+                                <div class="card-body">
+                                    <h4 class="card-title"><a href="#!">Cajuína</a></h4>
+                                    
+                                    <p class="card-text">Lata 350ml</p>
+                                    <h5>R$ 24.99</h5>
+                                </div>
+                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100">
                                 <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Coca-Cola</a></h4>
-                                    <h5>R$ 16.99</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-                                </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
-                                
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
-                                <div class="card-body">
-                                    <h4 class="card-title"><a href="#!">X-Calabresa</a></h4>
+                                    
+                                    <p class="card-text">1 Litro</p>
                                     <h5>R$ 24.99</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
-                                <div class="card-body">
-                                    <h4 class="card-title"><a href="#!">X-Bacon</a></h4>
-                                    <h5>R$ 24.99</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
                                 <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
                             </div>
@@ -113,9 +128,10 @@
                             <div class="card h-100">
                                 <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="#!">X-Frango</a></h4>
+                                    <h4 class="card-title"><a href="#!">Fanta</a></h4>
+                                    
+                                    <p class="card-text">1 Litro</p>
                                     <h5>R$ 24.99</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
                                 <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
                             </div>
@@ -124,20 +140,9 @@
                             <div class="card h-100">
                                 <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="#!">X-Salada</a></h4>
+                                    <h4 class="card-title"><a href="#!">Cajuína</a></h4>
+                                    <p class="card-text">1 Litro</p>
                                     <h5>R$ 24.99</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
-                                <div class="card-body">
-                                    <h4 class="card-title"><a href="#!">X-Burguer</a></h4>
-                                    <h5>R$ 24.99</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
                                 <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
                             </div>
@@ -148,7 +153,7 @@
         </div>
 
         <!-- Pagination -->
-  <ul class="pagination justify-content-center">
+  <!-- <ul class="pagination justify-content-center">
     <li class="page-item">
       <a class="page-link" href="#" aria-label="Previous">
             <span aria-hidden="true">&laquo;</span>
@@ -172,7 +177,7 @@
     </li>
   </ul>
 
-</div>
+</div> -->
       
         <!-- Bootstrap core JS-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

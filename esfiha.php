@@ -90,7 +90,7 @@
                             <div class="card h-100">
                                 <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="#!">Carne moida</a></h4>
+                                    <h4 class="card-title"><a href="#!">Carne Moída</a></h4>
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
                                 </div>
@@ -102,7 +102,7 @@
                             <div class="card h-100">
                                 <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="#!">X-Bacon</a></h4>
+                                    <h4 class="card-title"><a href="#!">Calabresa</a></h4>
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
@@ -113,7 +113,7 @@
                             <div class="card h-100">
                                 <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="#!">X-Frango</a></h4>
+                                    <h4 class="card-title"><a href="#!">Bacon</a></h4>
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
@@ -124,7 +124,7 @@
                             <div class="card h-100">
                                 <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="#!">X-Salada</a></h4>
+                                    <h4 class="card-title"><a href="#!">Presunto</a></h4>
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
                                 </div>
@@ -135,7 +135,7 @@
                             <div class="card h-100">
                                 <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="#!">X-Burguer</a></h4>
+                                    <h4 class="card-title"><a href="#!">4 Queijos</a></h4>
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
