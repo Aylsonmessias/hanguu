@@ -78,7 +78,7 @@
                             <div class="card h-100">
                                 <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="#!">X-Tudo</a></h4>
+                                    <h4 class="card-title"><a href="#!">Frango Catupiry</a></h4>
                                     <h5>R$ 16.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
@@ -90,7 +90,7 @@
                             <div class="card h-100">
                                 <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="#!">X-Calabresa</a></h4>
+                                    <h4 class="card-title"><a href="#!">Carne moida</a></h4>
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
                                 </div>
