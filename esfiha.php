@@ -82,7 +82,7 @@
                                     <h5>R$ 16.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
+                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="pedido.php" >Comprar</small></div>
                                 
                             </div>
                         </div>
