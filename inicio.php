@@ -67,8 +67,3 @@
 	</div>
 </body>
 </html>
-
-
-<?php
-  include"_includes/footer.php"
-  ?>
