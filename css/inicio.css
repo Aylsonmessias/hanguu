@@ -4,23 +4,23 @@
         margin: 0;
         padding: 0;
         height: 100%;
-        background: #ebeaea00 !important;
+        background: #ebeaea15 !important;
     }
     .user_card {
-        height: 400px;
-        width: 350px;
+        height: 250px;
+        width: 300px;
         margin-top: auto;
         margin-bottom: auto;
-        background: #ffffff;
+        background: #fafafa;
         position: relative;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        border-radius: 5px;
+        padding: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
 
     }
     .brand_logo_container {
@@ -49,7 +49,7 @@
     }
     .login_btn:focus {
         box-shadow: none !important;
-        outline: 0px !important;
+        outline: 30px !important;
     }
     .login_container {
         padding: 0 2rem;
@@ -58,7 +58,7 @@
         background: #fed136 !important;
         color: white !important;
         border: 0 !important;
-        border-radius: 0.25rem 0 0 0.25rem !important;
+        border-radius: 0.5rem 0 0 0.5rem !important;
     }
     .input_user,
     .input_pass:focus {

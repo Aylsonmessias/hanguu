@@ -85,7 +85,4 @@
     </div>
   </div> 
 </section>-->
-      <?php
-       include"_includes/footer.php"
-       
-       ?>
+      

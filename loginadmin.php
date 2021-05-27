@@ -32,4 +32,4 @@ endif;
 
 include __DIR__ . '/_includes/header.php';
 include __DIR__ . '/loginViewadmin.php';
-include __DIR__ . '/_includes/footer.php';
+//include __DIR__ . '/_includes/footer.php';
