@@ -28,7 +28,7 @@
 						<img src="assets\img\logologin.png" class="brand_logo" alt="Logo">
 					</div>
 				</div>
-				<div class="d-flex justify-content-center form_container">
+				<!-- <div class="d-flex justify-content-center form_container">
 					<form>
 						<div class="input-group mb-3">
 							<div class="input-group-append">
@@ -47,19 +47,27 @@
 								<input type="checkbox" class="custom-control-input" id="customControlInline">
 								<label class="custom-control-label" for="customControlInline">Manter-me Conectado</label>
 							</div>
-						</div>
+						</div> -->
 							<div class="d-flex justify-content-center mt-3 login_container">
-				 	<button type="button" name="button" class="btn login_btn">Entrar</button>
+                            <a href="tipodelogin.php" button type="button" name="button" class="btn login_btn">ENTRAR</a></button>
+                     
+				   </div>
+
+
+                   <div class="d-flex justify-content-center mt-3 login_container">
+				 	<a href="tipodecadastro.php" button type="button" name="button" class="btn login_btn">CADASTRE-SE</a></button>
+                     
+                     
 				   </div>
 					</form>
 				</div>
 		
-				<div class="mt-4">
+			<!--	<div class="mt-4">
 					<div class="d-flex justify-content-center links">
 						Don't have an account? <a href="#" class="ml-2">Sign Up</a>
 					</div>
 					<div class="d-flex justify-content-center links">
-						<a href="#">Forgot your password?</a>
+						<a href="#">Forgot your password?</a> -->
 					</div>
 				</div>
 			</div>

@@ -39,10 +39,6 @@
     </div>
   </div>
 
-  <div>
-        <a href="index.php" class="home-button">
-          <img  src="assets/img/home.png" alt="botão home"/>
-        </a>
-          </div>
+
 </body>
 

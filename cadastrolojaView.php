@@ -53,7 +53,7 @@
               <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Com o Google</button>
               <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Com o Facebook</button> -->
             
-              <a class="d-block text-center mt-2 small" href="index.php" >HOME</a>
+              
             </form>
           </div>
         </div>
