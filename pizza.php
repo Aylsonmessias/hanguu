@@ -43,7 +43,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <h1 class="my-4">Cardápio</h1>
+                <h1 class="my-4"><a href="cardapio.php">Cardápio</a></h1>
                     <div class="list-group">
                         <a class="list-group-item" href="hamburguer.php">Hamburgueres</a>
                         <a class="list-group-item" href="pizza.php">Pizzas</a>

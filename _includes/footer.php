@@ -15,10 +15,7 @@
                             
                                 
                     </div>
-                    <div class="col-lg-4 text-lg-right">
-                        <a class="mr-3" href="#!">Privacy Policy</a>
-                        <a href="#!">Terms of Use</a>
-                    </div>
+                    
                 </div>
             </div>
         </footer>

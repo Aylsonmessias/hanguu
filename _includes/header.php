@@ -22,5 +22,6 @@
         <link href="css/whatsapp.css" rel ="stylesheet"/>
         <link href="css/button.css" rel ="stylesheet"/>
         <link href="css/search.css" rel ="stylesheet"/>
+        <link href="css/inicio.css" rel ="stylesheet"/>
     </head>
   

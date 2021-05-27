@@ -43,7 +43,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <h1 class="my-4">Cardápio</h1>
+                <h1 class="my-4"><a href="cardapio.php">Cardápio</a></h1>
                     <div class="list-group">
                         <a class="list-group-item" href="hamburguer.php">Hamburgueres</a>
                         <a class="list-group-item" href="pizza.php">Pizzas</a>
@@ -76,12 +76,12 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://araujo.vteximg.com.br/arquivos/ids/4042618-1000-1000/07894900010015.jpg/700x400" alt="coca" /></a>
+                                <img class="card-img-top" src="assets\img\cardapio\cocalata.png" alt="coca"></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Coca-Cola</a></h4>
                                     
                                     <p class="card-text">Lata 350ml</p>
-                                    <h5>R$ 16.99</h5>
+                                    <h5>R$ 2,99</h5>
                                 </div>
                                 <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
                                 
@@ -89,12 +89,12 @@
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://dourados.saofranciscoonline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/e/refrigerante-fanta-laranja-lata-350ml-7894900030013_1.jpg" alt="fanta" /></a>
+                                <img class="card-img-top" src="assets\img\cardapio\fantalata.png" alt="fanta" /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Fanta</a></h4>
                                     
                                     <p class="card-text">Lata 350ml</p>
-                                    <h5>R$ 24.99</h5>
+                                    <h5>R$ 2,49</h5>
                                 </div>
                                 
                                 <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
@@ -102,47 +102,47 @@
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="" alt="cajuina" /></a>
+                                <img class="card-img-top" src="assets\img\cardapio\cajuinalata.png" alt="cajuina" /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Cajuína</a></h4>
                                     
                                     <p class="card-text">Lata 350ml</p>
-                                    <h5>R$ 24.99</h5>
+                                    <h5>R$ 2,49</h5>
                                 </div>
                                 <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="assets\img\cardapio\coca1l.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Coca-Cola</a></h4>
                                     
                                     <p class="card-text">1 Litro</p>
-                                    <h5>R$ 24.99</h5>
+                                    <h5>R$ 6,99</h5>
                                 </div>
                                 <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="assets\img\cardapio\fanta1l.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Fanta</a></h4>
                                     
                                     <p class="card-text">1 Litro</p>
-                                    <h5>R$ 24.99</h5>
+                                    <h5>R$ 5,99</h5>
                                 </div>
                                 <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="assets\img\cardapio\cajuina1l.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Cajuína</a></h4>
                                     <p class="card-text">1 Litro</p>
-                                    <h5>R$ 24.99</h5>
+                                    <h5>R$ 5,99</h5>
                                 </div>
                                 <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
                             </div>

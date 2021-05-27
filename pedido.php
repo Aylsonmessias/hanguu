@@ -10,24 +10,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+    
 
-    <title>Exemplo de formulário para checkout usando Bootstrap</title>
+    <title>Finalize o seu pedido!</title>
 
     <!-- Principal CSS do Bootstrap -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 
     <!-- Estilos customizados para esse template -->
-    <link href="form-validation.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
   </head>
 
   <body class="bg-light">
 
     <div class="container">
       <div class="py-5 text-center">
-        <img class="d-block mx-auto mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-        <h2>Pedido</h2>
-        <p class="lead">Abaixo temos um exemplo de formulário construído com controles de formulário Bootstrap. Cada campo obrigatório possui um estado de validação que é ativado quando tenta-se enviar o formulário sem completá-lo.</p>
+        <img class="d-block mx-auto mb-4" src="assets/img/tpedido.png" alt="" width="72" height="72">
+        <h2>Seu pedido</h2>
+        <p class="lead">Finalize o seu pedido preenchendo os campos a baixo!<br> Informe o local da entrega e quem irá receber.</p>
       </div>
 
       <div class="row">
@@ -81,52 +81,17 @@
           </form>
         </div>
         <div class="col-md-8 order-md-1">
-          <h4 class="mb-3">Endereço de Entrega</h4>
+          <h4 class="mb-3">Endereço de Entrega e Cobrança</h4>
           <form class="needs-validation" novalidate>
             <div class="row">
               <div class="col-md-6 mb-3">
-                <label for="primeiroNome"></label>
-                <input type="text" class="form-control" id="primeiroNome" placeholder="Quem vai receber?" value="" required>
+                <label for="primeiroNome">Quem vai receber?</label>
+                <input type="text" class="form-control" id="primeiroNome" placeholder="Nome" value="" required>
                 <div class="invalid-feedback">
                   É obrigatório inserir um nome válido.
                 </div>
               </div>
-              <div class="col-md-6 mb-3">
-                <label for="sobrenome"></label>
-                <input type="text" class="form-control" id="sobrenome" placeholder="Apelido" value="" required>
-                <div class="invalid-feedback">
-                  É obrigatório inserir um sobre nome válido.
-                </div>
-              </div>
-            </div>
-
-            <!--<div class="mb-3">
-              <label for="nickname">Nickname</label>
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <span class="input-group-text">@</span>
-                </div>
-                <input type="text" class="form-control" id="nickname" placeholder="Nickname" required>
-                <div class="invalid-feedback" style="width: 100%;">
-                  Seu nickname é obrigatório.
-                </div>
-              </div>
-            </div>
-
-            <div class="mb-3">
-              <label for="email">Email <span class="text-muted">(Opcional)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="fulano@exemplo.com">
-              <div class="invalid-feedback">
-                Por favor, insira um endereço de e-mail válido, para atualizações de entrega.
-              </div>
-            </div> -->
-
-            <div class="mb-3">
-              <label for="endereco">Endereço</label>
-              <input type="text" class="form-control" id="endereco" placeholder="Rua dos bobos, nº 0" required>
-              <div class="invalid-feedback">
-                Por favor, insira seu endereço de entrega.
-              </div>
+              
             </div>
 
             <div class="row">
@@ -178,22 +143,29 @@
               </div>
               <div class="col-md-3 mb-3">
                 <label for="cep">CEP</label>
-                <input type="text" class="form-control" id="cep" placeholder="" required>
+                <input type="text" class="form-control" id="cep" placeholder="00000-000" required>
                 <div class="invalid-feedback">
                   É obrigatório inserir um CEP.
                 </div>
               </div>
             </div>
-            <hr class="mb-4">
-            <div class="custom-control custom-checkbox">
-              <input type="checkbox" class="custom-control-input" id="mesmo-endereco">
-              <label class="custom-control-label" for="mesmo-endereco">Endereço de entrega é o mesmo que o de cobrança.</label>
+
+            <div class="mb-3">
+              <label for="endereco">Endereço</label>
+              <input type="text" class="form-control" id="endereco" placeholder="Rua, nº, bairro" required>
+              <div class="invalid-feedback">
+                Por favor, insira seu endereço de entrega.
+              </div>
             </div>
+
+          
+           
+           
             <div class="custom-control custom-checkbox">
               <input type="checkbox" class="custom-control-input" id="salvar-info">
-              <label class="custom-control-label" for="salvar-info">Lembrar desta informação, na próxima vez.</label>
+              <label class="custom-control-label" for="salvar-info">Lembrar informações, para próxima vez.</label>
             </div>
-            <hr class="mb-4">
+            
         <!--
             <h4 class="mb-3">Pagamento</h4>
 

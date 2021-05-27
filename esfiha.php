@@ -43,7 +43,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <h1 class="my-4">Cardápio</h1>
+                <h1 class="my-4"><a href="cardapio.php">Cardápio</a></h1>
                     <div class="list-group">
                         <a class="list-group-item" href="hamburguer.php">Hamburgueres</a>
                         <a class="list-group-item" href="pizza.php">Pizzas</a>
@@ -82,7 +82,7 @@
                                     <h5>R$ 16.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="pedido.php" >Comprar</small></div>
+                                <div class="card-footer"><a class ="btn btn-block btn-primary text-uppercase" href="pedido.php">Comprar</a></div>
                                 
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
                                 </div>
                                 
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="pedido.php" >Comprar</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
