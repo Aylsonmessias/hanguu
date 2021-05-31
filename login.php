@@ -16,7 +16,7 @@ if (isset($_POST['btnEntrar'])) :
 
         if ($obUserDao->loginUsuario() == 1) : // VALIDANDO INFORMAÇÕES SETADAS
 
-            header('Location: listagemLanche.php'); // REDIRECIONAMENTO DE PAGINA
+            header('Location: index.php'); // REDIRECIONAMENTO DE PAGINA
 
         else :
             header('Location: login.php');
