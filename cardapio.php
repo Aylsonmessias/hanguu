@@ -112,8 +112,12 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
-</html>
 
-<?php
+
+
+    <?php
   include"_includes/footer.php"
   ?>
+
+</html>
+
