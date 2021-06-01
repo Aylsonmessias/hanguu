@@ -61,11 +61,8 @@
   <!-- Grid container -->
   <img src="assets\img\logofooter1.png" width="200">
   <!-- Copyright -->
-  <div class="text-center text-dark p-3">
-      
-  2021© Startech Develop. Todos os direitos reservados
-    <a class="text-dark"></a>
-  </div>
+  <div class="text-center text-dark p-3">2021© Startech Develop. Todos os direitos reservados</div>
+  
   <!-- Copyright -->
 </footer> -->
       
