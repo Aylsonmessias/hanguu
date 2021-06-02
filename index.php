@@ -18,8 +18,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">A Hanguu</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="cardapio.php">Cardápio</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">A Hanguu</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger"class="mr-3" href="#about">Como Funciona?</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodecadastro.php">Cadastre-se</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodelogin.php">Entrar</a></li>

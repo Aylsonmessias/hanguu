@@ -54,4 +54,6 @@ include "_includes/header.php";
   </div>
  
 </body>
- 
+<?php
+  include"_includes/footer.php"
+  ?>

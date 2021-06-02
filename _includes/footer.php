@@ -64,5 +64,5 @@
   <div class="text-center text-dark p-3">2021© Startech Develop. Todos os direitos reservados</div>
   
   <!-- Copyright -->
-</footer> -->
+</footer>
       
