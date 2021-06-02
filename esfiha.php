@@ -82,7 +82,7 @@
                                     <h5>R$ 16.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
-                                <div class="card-footer"><a class ="btn btn-block btn-primary text-uppercase" href="pedido.php">Comprar</a></div>
+                                <div class="card-footer"><a class ="btn btn-block btn-primary text-uppercase" href="pedido.php">ADD Carrinho</a></div>
                                 
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
                                 </div>
                                 
-                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="pedido.php" >Comprar</a></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="pedido.php" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -106,7 +106,7 @@
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
+                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinhoo</small></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -117,7 +117,7 @@
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
+                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -128,7 +128,7 @@
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
+                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -139,13 +139,22 @@
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >Comprar</small></div>
+                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Button WhastsApp-->
+        <div>
+                <a href="https://chat.whatsapp.com/HjE3yo1NCe0KJiJRBhhwSw" class="whatsapp-button"
+                    target="_blank">
+                <img  src="assets/img/whatsApp.png" alt="botão whatsaap"/>
+            </a>
+            </div>
+
       
         <!-- Bootstrap core JS-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

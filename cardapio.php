@@ -7,28 +7,39 @@
 
     <body>
        
-        <!-- Navigation-->
-      <!--  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#!"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand js-scroll-trigger"  href="index.php"><img src="assets/img/logohanguu.svg"/></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#!">
-                                Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">A Hanguu</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="cardapio.php">Cardápio</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger"class="mr-3" href="#about">Como Funciona?</a></li>
+                      <!--  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodecadastro.php">Cadastre-se</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodelogin.php">Entrar</a></li> -->
+                        
+                        
                     </ul>
+
+                    <div class="nav-item">
+                    <label class="mr-3">Usuário</label>
+                        <a href="logout.php">SAIR</a> 
+                    
+                    <div>
+                    </div>
                 </div>
             </div>
-        </nav> -->
+        </nav>
+       
 
+
+        
         <!-- Page Content-->
+        <header class="masthead">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -45,7 +56,7 @@
                    
 
      <!--Slide -->
-        <header>
+        
    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -93,6 +104,15 @@
   </div> 
 </section> 
 
+</header> 
+
+  <!-- Button WhastsApp-->
+  <div>
+                <a href="https://chat.whatsapp.com/HjE3yo1NCe0KJiJRBhhwSw" class="whatsapp-button"
+                    target="_blank">
+                <img  src="assets/img/whatsApp.png" alt="botão whatsaap"/>
+            </a>
+            </div>
 
       
         <!-- Bootstrap core JS-->
@@ -102,14 +122,11 @@
         <script src="js/scripts.js"></script>
 
 
-        <?php
-  include"_includes/footer.php"
-  ?>
+    
 
     </body>
 
-
-
-  
-
 </html>
+<?php
+  include"_includes/footer.php"
+  ?>

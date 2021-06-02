@@ -28,7 +28,7 @@
   <div class="container pt-4">
     <!-- Section: Social media -->
     <section class="mb-4">
-    
+    <div class="text-center text-dark p-3">SIGA NOSSAS REDES</div>
     <!-- Facebook -->
       <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"
@@ -59,7 +59,7 @@
     <!-- Section: Social media -->
   </div>
   <!-- Grid container -->
-  <img src="assets\img\logofooter1.png" width="200">
+  <img src="assets\img\logofooter1.png" width="150">
   <!-- Copyright -->
   <div class="text-center text-dark p-3">2021© Startech Develop. Todos os direitos reservados</div>
   
