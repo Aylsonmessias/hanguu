@@ -76,7 +76,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="assets\img\cardapio\efrango.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Frango Catupiry</a></h4>
                                     <h5>R$ 16.99</h5>
@@ -88,7 +88,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="assets\img\cardapio\ecarne.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Carne Moída</a></h4>
                                     <h5>R$ 24.99</h5>
@@ -100,7 +100,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="assets\img\cardapio\ecalabresa.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Calabresa</a></h4>
                                     <h5>R$ 24.99</h5>
@@ -111,7 +111,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="assets\img\cardapio\ebacon.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Bacon</a></h4>
                                     <h5>R$ 24.99</h5>
@@ -122,7 +122,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="assets\img\cardapio\epresunto.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Presunto</a></h4>
                                     <h5>R$ 24.99</h5>
@@ -133,7 +133,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card h-100">
-                                <a href="#!"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="assets\img\cardapio\equeijos.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">4 Queijos</a></h4>
                                     <h5>R$ 24.99</h5>
