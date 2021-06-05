@@ -73,8 +73,8 @@
 
  <section class="py-5">
   <div class="container">
-    <h1 class="font-weight-light">Tudo que você precisa</h1>
-    <p class="lead">Pediu, chegou!</p>
+    <h1 class="font-weight-light">Tudo que você precisa!</h1>
+    <p class="lead"></p>
   </div> 
 </section> 
 
