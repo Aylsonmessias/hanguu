@@ -80,7 +80,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Frango Catupiry</a></h4>
                                     <h5>R$ 16.99</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                                    <p class="card-text"></p>
                                 </div>
                                 <div class="card-footer"><a class ="btn btn-block btn-primary text-uppercase" href="pedido.php">ADD Carrinho</a></div>
                                 
@@ -92,7 +92,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Carne Moída</a></h4>
                                     <h5>R$ 24.99</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                                    <p class="card-text"></p>
                                 </div>
                                 
                                 <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="pedido.php" >ADD Carrinho</a></div>
@@ -104,7 +104,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Calabresa</a></h4>
                                     <h5>R$ 24.99</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                                    <p class="card-text"></p>
                                 </div>
                                 <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinhoo</small></div>
                             </div>
@@ -115,7 +115,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Bacon</a></h4>
                                     <h5>R$ 24.99</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                                    <p class="card-text"></p>
                                 </div>
                                 <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
                             </div>
@@ -126,7 +126,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Presunto</a></h4>
                                     <h5>R$ 24.99</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                                    <p class="card-text"></p>
                                 </div>
                                 <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
                             </div>
@@ -137,7 +137,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">4 Queijos</a></h4>
                                     <h5>R$ 24.99</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                                    <p class="card-text"></p>
                                 </div>
                                 <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
                             </div>

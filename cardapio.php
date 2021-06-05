@@ -7,39 +7,13 @@
 
     <body>
        
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger"  href="index.php"><img src="assets/img/logohanguu.svg"/></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ml-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ml-auto">
-                        <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">A Hanguu</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="cardapio.php">Cardápio</a></li> 
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger"class="mr-3" href="#about">Como Funciona?</a></li>-->
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodecadastro.php">Cadastre-se</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodelogin.php">Entrar</a></li>
-                        
-                        
-                    </ul>
-
-                  <!--  <div class="nav-item">
-                    <label class="mr-3">Usuário</label>
-                        <a href="logout.php">SAIR</a> -->
-                    
-                    <div>
-                    </div>
-                </div>
-            </div>
-        </nav>
+ 
        
 
 
         
         <!-- Page Content-->
-        <header class="masthead">
+       
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -65,7 +39,7 @@
     </ol>
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below --> 
-      <div class="carousel-item active" style="background-image: url('https://github.com/Aylsonmessias/hanguu/blob/master/assets/img/slide/slide1.png?raw=true/1920x1080')">
+      <div class="carousel-item active" style="background-image: url('https://github.com/Aylsonmessias/hanguu/blob/master/assets/img/slide/slide01.png?raw=true/1920x1080')">
         <div class="carousel-caption d-none d-md-block">
           <h3 class="display-4">First Slide</h3>
           <p class="lead">This is a description for the first slide.</p>
@@ -73,7 +47,7 @@
       </div>
 
       <!-- Slide Two - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://github.com/Aylsonmessias/hanguu/blob/master/assets/img/slide/slide2.png?raw=true/1920x1080')">
+      <div class="carousel-item" style="background-image: url('https://github.com/Aylsonmessias/hanguu/blob/master/assets/img/slide/slide02.png?raw=true/1920x1080')">
         <div class="carousel-caption d-none d-md-block">
           <h3 class="display-4">Second Slide</h3>
           <p class="lead">This is a description for the second slide.</p>

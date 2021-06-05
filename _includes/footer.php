@@ -59,7 +59,7 @@
     <!-- Section: Social media -->
   </div>
   <!-- Grid container -->
-  <img src="assets\img\logofooter1.png" width="150">
+  <a href="index.php"><img src="assets\img\logofooter1.png" width="150">
   <!-- Copyright -->
   <div class="text-center text-dark p-3">2021© Startech Develop. Todos os direitos reservados</div>
   
