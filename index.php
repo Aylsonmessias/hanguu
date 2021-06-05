@@ -60,20 +60,21 @@
         
     
 <!-- Quem somos-->
-<section class="page-section" id="services">
+<section class="corpo" id="services">
             <div class="container">
-                <div class="text-center">
+                <div class="text-left">
                     <h2 class="section-heading text-uppercase">Quem somos?</h2>
-                   
+                   <br>
                 </div>
-                <div class="text-center">
+                
                         <h4 class="my-2">
-                            <p>A Hanguu é uma plataforma de delivery que</p>
-                            <p>tem como objetivo ajudar pequenos e médios</p>
-                            <p>negócios a inserirem a sua loja no mundo digital</p>
-                            <p>e trazer comodidade para quem deseja aquele</p> 
-                            <p>pedido de forma rápida.</h4>
-               
+                        <p><img src="assets/img/logocorpo.png" width="350" align="right">
+                            A Hanguu é uma plataforma de delivery que<br/>
+                            tem como objetivo ajudar pequenos e médios<br/>
+                            negócios a inserirem a sua loja no mundo digital<br/>
+                            e trazer comodidade para quem deseja aquele<br/>
+                            pedido de forma rápida.</p></h4>
+                            
 
       <!-- Button WhastsApp-->
             <div>
