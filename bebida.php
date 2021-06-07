@@ -1,3 +1,11 @@
+
+<?php
+function __autoload($classe){
+  require('sys/'.$classe.'.class.php');
+}
+BD::conn();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +25,14 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
-       
+    <?php
+  $id_produto = (int)$_GET['produto_id'];
+  $produto_single = BD::conn()->prepare("SELECT * FROM `produtos` WHERE id = ?");
+  $produto_single->execute(array($id_produto));
+
+  while($dados_produto = $produto_single->fetchObject()){
+
+  ?>  
         <!-- Navigation-->
       <!--  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
@@ -42,6 +57,7 @@
         <!-- Page Content-->
         
         <div class="container">
+                     
             <div class="row">
                 <div class="col-lg-3">
                 <h1 class="my-4"><a href="cardapio.php">Cardápio</a></h1>
@@ -114,11 +130,25 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
+                   
                             <div class="card h-100">
                                 <a href="#!"><img class="card-img-top" src="assets\img\cardapio\coca1l.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Coca-Cola</a></h4>
-                                    
+                                    <div class="produto_single">
+    
+                                            <span><?php echo $dados_produto->titulo;?></span>
+                                            <span class="valor">R$ <?php echo number_format($dados_produto->preco, 2, ',', '.');?></span>
+
+                                            <div class="box">
+                                            <form action="carrinho.php" method="post" enctype="multipart/form-data">
+                                                <input type="hidden" name="qtd" value="1" size="3">
+                                                <input type="hidden" name="id" value="<?php echo $id_produto;?>">
+                                                <input type="hidden" name="acao" value="add">
+                                                <input type="submit" name="comprar" value="Adicionar ao carrinho">
+                                            </form>
+                                        </div>
+                                        </div>
                                     <p class="card-text">1 Litro</p>
                                     <h5>R$ 6,99</h5>
                                 </div>
@@ -151,6 +181,7 @@
                     </div>
                 </div>
             </div>
+         
         </div>
         </header> 
        <!-- Button WhastsApp-->
@@ -159,6 +190,9 @@
                     target="_blank">
                 <img  src="assets/img/whatsApp.png" alt="botão whatsaap"/>
             </a>
+            <?php
+  }
+            ?>
             </div>
       
         <!-- Bootstrap core JS-->
