@@ -2,7 +2,10 @@
 <html lang="en">
 
 <?php
-   include "_includes/header.php"
+   session_start();
+   include "_includes/header.php"; 
+   
+   if (!isset($_SESSION['usuario'])){header('Location: login.php');}
    ?>
 
 <head>
@@ -84,7 +87,7 @@
                                     <p class="card-text"></p>
                                     <h5>R$ 19.99</h5>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=1" >ADD Carrinho</a></div>
                                 
                             </div>
                         </div>
@@ -98,7 +101,7 @@
                                     <h5>R$ 16.99</h5>
                                 </div>
                                 
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=2" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">

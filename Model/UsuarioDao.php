@@ -1,7 +1,5 @@
 <?php
 session_start();
-require 'Conexao.php';
-
 
 class UsuarioDao
 {
@@ -43,15 +41,16 @@ class UsuarioDao
         $stmt->bindValue(2, $this->getSenha());
 
         $stmt->execute();
+        $dados=$stmt->fetch();
 
-        if ($stmt->rowCount() > 0) :
+        if (!empty($dados)) :
+            return $dados;
             
-            $dados = 1;
         else :
-            $dados = 2;
+            return false;
         endif;
 
-        return $dados;
+
     }
 }
 

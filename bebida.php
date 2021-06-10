@@ -84,7 +84,7 @@
                                     <p class="card-text">Lata 350ml</p>
                                     <h5>R$ 2,99</h5>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=31" >ADD Carrinho</a></div>
                                 
                             </div>
                         </div>

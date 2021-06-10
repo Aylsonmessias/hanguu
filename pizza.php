@@ -92,7 +92,7 @@
                                     </div>
                                     </div>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=11" >ADD Carrinho</a></div>
                                 
                             </div>
                         </div>

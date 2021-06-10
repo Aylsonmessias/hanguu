@@ -4,6 +4,7 @@
 <html lang="en">
 
 <?php
+   session_start(); 
    include "_includes/header.php"
    ?>
         
@@ -22,15 +23,25 @@
                         
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">A Hanguu</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger"class="mr-3" href="#about">Como Funciona?</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodecadastro.php">Cadastre-se</a></li>
+                        <?php if (isset($_SESSION['usuario'])): ?>
+                        
+                        <li class="nav-item"><a class="nav-user"><?php echo $_SESSION['usuario'];['nome']; ?></a>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="logout.php">SAIR</a></li>
+
+                        <?php else: ?>
+                                        
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodecadastro.php">Cadastre-se</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodelogin.php">Entrar</a></li>
                         
                         
+                        <?php endif; ?>
+                       
+         
                     </ul>
-                    <!--
+                  
                     <div class="nav-item">
-                    <label class="mr-3">Usuário</label>
-                        <a href="logout.php">SAIR</a> -->
+                    
+                    
                     
                     <div>
                     </div>
@@ -68,7 +79,7 @@
                 </div>
                 
                         <h4 class="my-2">
-                        <p><img src="assets/img/logocorpo.png" width="350" align="right">
+                        <p><img src="assets/img/logocorpo1.png" width="350" align="right">
                             A Hanguu é uma plataforma de delivery que<br/>
                             tem como objetivo ajudar pequenos e médios<br/>
                             negócios a inserirem a sua loja no mundo digital<br/>

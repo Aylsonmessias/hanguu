@@ -2,8 +2,15 @@
 <html lang="en">
 
 <?php
-   include "_includes/header.php"
-   ?>
+
+session_start();
+include "_includes/header.php";
+require 'Model/conexao.php';
+require "Model/Produtos.php";
+
+$produtos = getProdutos( $_SESSION['pedidos']);
+
+?>
 
   <head>
     <meta charset="utf-8">
@@ -26,7 +33,7 @@
     <div class="container">
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="assets/img/tpedido.png" alt="" width="72" height="72">
-        <h2>Seu pedido</h2>
+        <h2>Carrinho de pedidos</h2>
         <p class="lead">Finalize o seu pedido preenchendo os campos a baixo!<br> Informe o local da entrega e quem irá receber.</p>
       </div>
 
@@ -39,8 +46,9 @@
           <ul class="list-group mb-3">
             <li class="list-group-item d-flex justify-content-between lh-condensed">
               <div>
-                <h6 class="my-0">Nome do produto</h6>
-                <small class="text-muted">Breve descrição</small>
+                <h6 class="my-0">Nome <?php echo $produto['titulo'];?></h6>
+                <small class="text-muted">Quantidade <?php echo count($_SESSION['pedidos'])?></h1></small>
+                <small class="text-muted">Quantidade <?php echo count($_SESSION['pedidos'])?></h1></small>
               </div>
               <span class="text-muted">R$12</span>
             </li>

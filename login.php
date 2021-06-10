@@ -1,4 +1,6 @@
 <?php
+require 'Model/conexao.php';
+
 require 'Model/UsuarioDao.php';
 
 
@@ -13,12 +15,16 @@ if (isset($_POST['btnEntrar'])) :
         $obUserDao->setLogin($_POST['email']);
         $obUserDao->setSenha($_POST['senha']);
 
-
-        if ($obUserDao->loginUsuario() == 1) : // VALIDANDO INFORMAÇÕES SETADAS
-
-            header('Location: index.php'); // REDIRECIONAMENTO DE PAGINA
+            
+        if ($obUserDao->loginUsuario() !== false ) : // VALIDANDO INFORMAÇÕES SETADAS
+            $dados  = $obUserDao->loginUsuario(); 
+            $id = $dados['id'];
+            $_SESSION['user_login']=$id;
+            $_SESSION['usuario']=$dados['nome'];
+            header('Location: cardapio.php'); // REDIRECIONAMENTO DE PAGINA
 
         else :
+            $_SESSION['user_login']=false;
             header('Location: login.php');
 
         endif;

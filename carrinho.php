@@ -78,7 +78,7 @@ $total = $carrinho->valorTotal();
           <tr>
             <td><?php echo $produto['titulo'];?></td>
             <td><input type="text" size="3" name="qtd[<?php echo $indice;?>]" value="<?php echo $produto['qtd'];?>"></td>
-            <td>R$ <?php echo number_format($produto['preco'], 2,',','.');?></td>
+            <td>Valor <?php echo $produto['preco'];?></td>
             <td>R$ <?php echo number_format($produto['subtotal'], 2,',','.');?></td>
             <td><a class="btn" href="?acao=del&id=<?php echo $indice;?>">Remover</a></td>
           </tr>
@@ -91,3 +91,6 @@ $total = $carrinho->valorTotal();
   </div>
 </body>
 </html>
+<?php
+  include"_includes/footer.php"
+  ?>
