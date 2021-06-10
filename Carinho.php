@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+
 include "_includes/header.php";
 require 'Model/conexao.php';
 require "Model/Produtos.php";

@@ -1,5 +1,8 @@
+
+
+
 <?php
-session_start();
+
 
 class UsuarioDao
 {
@@ -51,6 +54,19 @@ class UsuarioDao
         endif;
 
 
+    }
+
+    public function salvar($informacoes) {
+        try {
+        $sql = 'INSERT INTO usuario SET nome = ?, email= ?, senha = ?, situacoe_id = ?, niveis_acesso_id=?';
+        $stmt = Conexao::getConn()->prepare($sql);
+        return $stmt->execute($informacoes);
+      
+        
+    } catch(PDOException $e) {
+            echo $e->getMessage();
+            exit();
+        }
     }
 }
 

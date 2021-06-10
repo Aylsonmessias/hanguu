@@ -1,5 +1,32 @@
 <?php
 include "_includes/header.php";
+include "Model/conexao.php";
+include "Model/UsuarioDao.php";
+
+if (isset($_POST['btnCadastrar'])) {
+
+  $dados = [
+    $_POST['nome'],
+    $_POST['email'],
+    $_POST['senha'],
+    0,
+    0
+  ];
+
+$user = new UsuarioDao();
+
+if($user->salvar($dados)) {
+  echo '
+  
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Cadastro realizado !
+ 
+</div>
+  
+  ';
+}
+
+}
 ?>
 <!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
 
@@ -55,5 +82,5 @@ include "_includes/header.php";
  
 </body>
 <?php
-  include"_includes/footer.php"
+  include "_includes/footer.php"
   ?>
