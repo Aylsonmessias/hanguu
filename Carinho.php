@@ -84,7 +84,7 @@ $produtos = getProdutos( $_SESSION['pedidos']);
           </table>
         
             
-            <a href="pedido.php" 
+            <a href="Checkout.php" 
             class="btn btn-primary btn-block" title="Proceed to Checkout">Fazer Checkout</a>
             </div>
       </form>
