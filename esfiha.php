@@ -2,7 +2,10 @@
 <html lang="en">
 
 <?php
-   include "_includes/header.php"
+   session_start();
+   include "_includes/header.php"; 
+   
+   if (!isset($_SESSION['usuario'])){header('Location: login.php');}
    ?>
 
 <head>
@@ -79,10 +82,10 @@
                                 <a href="#!"><img class="card-img-top" src="assets\img\cardapio\efrango.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Frango Catupiry</a></h4>
-                                    <h5>R$ 16.99</h5>
+                                    <h5>R$ 1.99</h5>
                                     <p class="card-text"></p>
                                 </div>
-                                <div class="card-footer"><a class ="btn btn-block btn-primary text-uppercase" href="pedido.php">ADD Carrinho</a></div>
+                                <div class="card-footer"><a class ="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=21">ADD Carrinho</a></div>
                                 
                             </div>
                         </div>
@@ -91,11 +94,11 @@
                                 <a href="#!"><img class="card-img-top" src="assets\img\cardapio\ecarne.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Carne Moída</a></h4>
-                                    <h5>R$ 24.99</h5>
+                                    <h5>R$ 1.99</h5>
                                     <p class="card-text"></p>
                                 </div>
                                 
-                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="pedido.php" >ADD Carrinho</a></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=22" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -103,10 +106,10 @@
                                 <a href="#!"><img class="card-img-top" src="assets\img\cardapio\ecalabresa.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Calabresa</a></h4>
-                                    <h5>R$ 24.99</h5>
+                                    <h5>R$ 1.99</h5>
                                     <p class="card-text"></p>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinhoo</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=23" >ADD Carrinhoo</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -114,10 +117,10 @@
                                 <a href="#!"><img class="card-img-top" src="assets\img\cardapio\ebacon.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Bacon</a></h4>
-                                    <h5>R$ 24.99</h5>
+                                    <h5>R$ 1.99</h5>
                                     <p class="card-text"></p>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=24" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -125,10 +128,10 @@
                                 <a href="#!"><img class="card-img-top" src="assets\img\cardapio\epresunto.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Presunto</a></h4>
-                                    <h5>R$ 24.99</h5>
+                                    <h5>R$ 1.99</h5>
                                     <p class="card-text"></p>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=25" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -136,10 +139,10 @@
                                 <a href="#!"><img class="card-img-top" src="assets\img\cardapio\equeijos.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">4 Queijos</a></h4>
-                                    <h5>R$ 24.99</h5>
+                                    <h5>R$ 1.99</h5>
                                     <p class="card-text"></p>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=26" >ADD Carrinho</a></div>
                             </div>
                         </div>
                     </div>

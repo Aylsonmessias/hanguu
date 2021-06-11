@@ -2,9 +2,11 @@
 <html lang="en">
 
 <?php
-   include "_includes/header.php"
+   session_start();
+   include "_includes/header.php"; 
+   
+   if (!isset($_SESSION['usuario'])){header('Location: login.php');}
    ?>
-
 <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -98,7 +100,7 @@
                                     <h5>R$ 2,49</h5>
                                 </div>
                                 
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=32" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -110,7 +112,7 @@
                                     <p class="card-text">Lata 350ml</p>
                                     <h5>R$ 2,49</h5>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=33" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -122,7 +124,7 @@
                                     <p class="card-text">1 Litro</p>
                                     <h5>R$ 6,99</h5>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=34" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -134,7 +136,7 @@
                                     <p class="card-text">1 Litro</p>
                                     <h5>R$ 5,99</h5>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=35" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -145,7 +147,7 @@
                                     <p class="card-text">1 Litro</p>
                                     <h5>R$ 5,99</h5>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=36" >ADD Carrinho</a></div>
                             </div>
                         </div>
                     </div>

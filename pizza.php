@@ -2,7 +2,10 @@
 <html lang="en">
 
 <?php
-   include "_includes/header.php"
+   session_start();
+   include "_includes/header.php"; 
+   
+   if (!isset($_SESSION['usuario'])){header('Location: login.php');}
    ?>
 
 <head>
@@ -79,7 +82,7 @@
                                 <a href="#!"><img class="card-img-top" src="assets\img\cardapio\pfrango.png" alt="..." /></a>
                                 <div class="card-body">
                                     <h4 class="card-title"><a href="#!">Frango Catupiry</a></h4>
-                                    <h5>R$ 16.99</h5>
+                                    <h5>R$ 24.99</h5>
                                     <p class="card-text"></p>
                                     <div class="btn-group">
                                     <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -115,7 +118,7 @@
                                     </div>
                                 </div>
                                 
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=12" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -136,7 +139,7 @@
                                     </div>
                                     </div>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=13" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -157,7 +160,7 @@
                                     </div>
                                     </div>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=14" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -178,7 +181,7 @@
                                     </div>
                                     </div>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=15" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -199,7 +202,7 @@
                                     </div>
                                     </div>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=16" >ADD Carrinho</a></div>
                             </div>
                         </div>
                     </div>

@@ -113,7 +113,7 @@
                                     <p class="card-text"></p>
                                     <h5>R$ 14.99</h5>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=3" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -125,7 +125,7 @@
                                     <p class="card-text"></p>
                                     <h5>R$ 12.99</h5>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=4" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -137,7 +137,7 @@
                                     <p class="card-text"></p>
                                     <h5>R$ 7.99</h5>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=5" >ADD Carrinho</a></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
@@ -149,7 +149,7 @@
                                     <p class="card-text"></p>
                                     <h5>R$ 9.99</h5>
                                 </div>
-                                <div class="card-footer"><small class="btn btn-block btn-primary text-uppercase" href="#contact" >ADD Carrinho</small></div>
+                                <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=6" >ADD Carrinho</a></div>
                             </div>
                         </div>
                     </div>
