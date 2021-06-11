@@ -14,7 +14,7 @@ $produtos = getProdutos( $_SESSION['pedidos']);
     
     
   <!-- Page Heading -->
-  
+  <div class="col-lg-9 mb-4">
       
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="assets/img/tpedido.png" alt="" width="72" height="72">
@@ -29,7 +29,7 @@ $produtos = getProdutos( $_SESSION['pedidos']);
 
   <!-- Cart Table -->
   
-  <div class="row">
+  <div class="container" style="align: center">
   
     <div class="col-lg-9 mb-4">
       <form id="cart-update-form" method="post" action="/cart/update">
@@ -41,7 +41,7 @@ $produtos = getProdutos( $_SESSION['pedidos']);
                 <th class="mob-hide"></th>
                 <th class="mob-hide">Preço</th>
                 <th class="mob-hide">Quantidade</th>
-                <th>Total</th>
+                <th>Subtotal</th>
                 <th>Remover</th>
                 <th></th>
               </tr>
@@ -63,7 +63,7 @@ $produtos = getProdutos( $_SESSION['pedidos']);
                 <td><span class="quantidade"> <?php echo count($_SESSION['pedidos'])?></span></td> 
                 <td><span class="subtotal">R$ 6.99</span></td>
                   
-                <td clas="text-right"> <a href="/cart/remove_product/66109638" class="cart-product-remove" 
+                <td class="text-right"> <a href="/cart/remove_product/66109638" class="cart-product-remove" 
                 title="Remove Product"><i class="fas fa-times-circle"></i></a></td> 
                       <?php endforeach;?>
                       <?php else: ?>
@@ -71,15 +71,27 @@ $produtos = getProdutos( $_SESSION['pedidos']);
                       <h1>Voce nao tem pedidos</h1>
                       <?php endif; ?>
 
+                      <div class="col-12 cart-totals">
+                      <table class="table table-striped">
+
+            
+              <td colspan="1" class="text-left"><strong>Total</strong></td>
+              <td colspan="1" class="text-right"><strong>R$ 100.000</strong></td>    
+
             </tr>
           </thead>
-
-            <td><input class="btn btn-primary btn-sm" type="submit" name="atualizar" value="Atualizar Carrinho"></td>
-            <td><a class="btn btn-primary btn-sm" href="cardapio.php">Continuar Comprando</a></td>
+            
           </table>
-        </div>
+        
+            
+            <a href="pedido.php" 
+            class="btn btn-primary btn-block" title="Proceed to Checkout">Fazer Checkout</a>
+            </div>
       </form>
-    
+
+            <td><a class="btn btn-secondary btn-sm"  href="#">Atualizar</a></td>            
+            <td><a class="btn btn-outline-warning btn-sm"  href="cardapio.php">Continuar Comprando</a></td>     
+
             </div>
           </div>
         </div>

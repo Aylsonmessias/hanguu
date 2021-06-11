@@ -32,8 +32,8 @@ $produtos = getProdutos( $_SESSION['pedidos']);
 
     <div class="container">
       <div class="py-5 text-center">
-        <img class="d-block mx-auto mb-4" src="assets/img/tpedido.png" alt="" width="72" height="72">
-        <h2>Carrinho de pedidos</h2>
+
+        <h2>Checkout</h2>
         <p class="lead">Finalize o seu pedido preenchendo os campos a baixo!<br> Informe o local da entrega e quem irá receber.</p>
       </div>
 
