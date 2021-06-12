@@ -5,8 +5,14 @@ include "_includes/header.php";
 require 'Model/conexao.php';
 require "Model/Produtos.php";
 
-$produtos = getProdutos( $_SESSION['pedidos']);
 
+
+if (!empty($_GET['remove'])) {
+ $key = array_search($_GET['remove'], $_SESSION['pedidos']);
+ unset($_SESSION['pedidos'][$key]);
+}
+
+$produtos = getProdutos($_SESSION['pedidos']);
 ?>
 
 <html>
@@ -60,10 +66,33 @@ $produtos = getProdutos( $_SESSION['pedidos']);
                     <td class="mob-hide">
                   
                 <td><span class="valor">R$ <?php echo $produto['preco'];?></span></td> 
-                <td><span class="quantidade"> <?php echo count($_SESSION['pedidos'])?></span></td> 
-                <td><span class="subtotal">R$ 6.99</span></td>
+                <td><span class="quantidade">
+                
+                 <?php 
+                     $qtd = 0;
+                   foreach($_SESSION['pedidos'] as $p) {
+                   
+                    if (in_array($p, array_column($produtos, 'id')) and $p ==$produto['id'] ){
+
+
+                      
+                      $qtd++;
+                    }
+                   }
+                   
+                  //  array_map($_SESSION['pedidos'], function($e) {
+                  //     return in_array($e, array_column($produtos, 'id'))
+                  //   }));
+                                
+                echo $qtd;
+
+
+                $total[] = $produto['preco'] * $qtd;
+                
+                ?></span></td> 
+                <td><span class="subtotal">R$ <?php echo ($produto['preco'] * $qtd);?></span></td>
                   
-                <td class="text-right"> <a href="/cart/remove_product/66109638" class="cart-product-remove" 
+                <td class="text-right"> <a href="Carinho.php?remove=<?php echo $produto['id'];?>" name="remove" class="cart-product-remove" 
                 title="Remove Product"><i class="fas fa-times-circle"></i></a></td> 
                       <?php endforeach;?>
                       <?php else: ?>
@@ -76,7 +105,7 @@ $produtos = getProdutos( $_SESSION['pedidos']);
 
             
               <td colspan="1" class="text-left"><strong>Total</strong></td>
-              <td colspan="1" class="text-right"><strong>R$ 100.000</strong></td>    
+              <td colspan="1" class="text-right"><strong>R$ <?php echo array_sum($total); ?></strong></td>    
 
             </tr>
           </thead>
@@ -86,10 +115,11 @@ $produtos = getProdutos( $_SESSION['pedidos']);
             
             <a href="Checkout.php" 
             class="btn btn-primary btn-block" title="Proceed to Checkout">Fazer Checkout</a>
+            
             </div>
       </form>
 
-            <td><a class="btn btn-secondary btn-sm"  href="#">Atualizar</a></td>            
+                      
             <td><a class="btn btn-outline-warning btn-sm"  href="cardapio.php">Continuar Comprando</a></td>     
 
             </div>
@@ -104,6 +134,6 @@ $produtos = getProdutos( $_SESSION['pedidos']);
 </bode>
 </html>
     <?php
-  include"_includes/footer.php"
+  include "_includes/footer.php"
   ?>
 

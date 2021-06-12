@@ -68,6 +68,24 @@ class UsuarioDao
             exit();
         }
     }
+
+
+    public function get($id) {
+        $sql = 'SELECT * FROM usuario WHERE id = ?';
+        $stmt = Conexao::getConn()->prepare($sql);
+        $stmt->execute([$id]);
+        $dados = $stmt->fetch();
+
+        return $dados;
+    }
+
+
+    public function update($informacoes)
+    {
+        $sql = 'UPDATE usuario set nome = ?, sobrenome = ?, endereco = ?, cidade = ?, cep = ?, telefone = ?, pais = ?, uf = ? WHERE id = ?';
+        $stmt = Conexao::getConn()->prepare($sql);
+        $stmt->execute($informacoes);
+    }
 }
 
 

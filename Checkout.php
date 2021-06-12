@@ -4,11 +4,75 @@
 <?php
 
 
+ini_set('display_errors',1);
+ini_set('display_startup_erros',1);
+error_reporting(E_ALL);
+
+
 include "_includes/header.php";
 require 'Model/conexao.php';
 require "Model/Produtos.php";
+require "Model/UsuarioDao.php";
+require "Model/Pedidos.php";
 
-$produtos = getProdutos( $_SESSION['pedidos']);
+$produtos = getProdutos($_SESSION['pedidos']);
+
+
+$usuario = new UsuarioDao();
+
+
+$dados_user = $usuario->get($_SESSION['user_login']);
+
+if (isset($_POST['pedido'])) {
+    $dados =  [
+      $_POST['nome'],
+      $_POST['sobrenome'],
+      $_POST['endereco'],
+      $_POST['cidade'],
+      $_POST['cep'],
+      $_POST['telefone'],
+      $_POST['pais'],
+      $_POST['uf'],
+      $_SESSION['user_login']
+      
+    ];
+
+
+    $usuario->update($dados);
+
+    $produtos = getProdutos($_SESSION['pedidos']);
+    $id = criarPedido($_SESSION['user_login']);
+    foreach ($produtos as $produto) {
+      $qtd = 0;
+      foreach($_SESSION['pedidos'] as $p) {
+      
+       if (in_array($p, array_column($produtos, 'id')) and $p == $produto['id'] ){
+
+
+         
+         $qtd++;
+       }
+      }
+
+      $total = $produto['preco'] * $qtd;
+
+      $dados = [
+        $total,
+        $produto['id'],
+        $qtd,
+        $id
+      ];
+
+
+
+     salvarPedido($dados);
+
+
+    }
+    unset($_SESSION['pedidos']);
+    header("Location: meuspedidos.php");
+}
+
 
 ?>
 
@@ -30,20 +94,14 @@ $produtos = getProdutos( $_SESSION['pedidos']);
   <!-- Checkout Container -->
   <div class="checkout-container">
     
-<form action="/checkout/revieworder/e30d0e5ce79bc52a58492b0e510e36a3" accept-charset="UTF-8" method="post" target="_top" id="checkout"><input type="hidden" name="_method" value="put" />  <div id="contacts">
+<form action="Checkout.php" accept-charset="UTF-8" method="post" target="_top" id="checkout"><input type="hidden" name="_method" value="put" />  <div id="contacts">
       <h2 class="legend">Contato</h2>
 
-      <div id="contacts_email" class="field text-field">
-        <label for="order_customer_email">E-mail <em>*</em></label>
-        <input type="email" name="order_customer[email]" id="order_customer_email" class="text" required="required" autocomplete="email" />
-        
-        <div id="email-suggestion"></div>
 
-      </div>
 
       <div id="contacts_phone" class="field text-field">
         <label for="order_customer_phone">Telefone </label>
-        <input type="tel" name="order_customer[phone]" id="order_customer_phone" class="text" autocomplete="tel" />
+        <input type="tel" name="telefone" id="order_customer_phone" class="text" autocomplete="tel"value="<?php echo $dados_user['telefone'];?> " />
         
       </div>
 
@@ -55,27 +113,27 @@ $produtos = getProdutos( $_SESSION['pedidos']);
         <h2 class="legend">Endereço de Entrega</h2>
         <div id="shipping_address_name" class="field text-field">
           <label for="order_shipping_address_name">Nome <em>*</em></label>
-          <input type="text" name="order_shipping_address[name]" id="order_shipping_address_name" class="text" required="required" autocomplete="given-name" />
+          <input type="text" name="nome" id="order_shipping_address_name" class="text" required="required" autocomplete="given-name" value="<?php echo $dados_user['nome'];?>" />
           
         </div>
         <div id="shipping_address_surname" class="field text-field">
           <label for="order_shipping_address_surname">Sobrenome <em>*</em></label>
-          <input type="text" name="order_shipping_address[surname]" id="order_shipping_address_surname" class="text" required="required" autocomplete="family-name" />
+          <input type="text" name="sobrenome" id="order_shipping_address_surname" class="text" required="required" autocomplete="family-name"  value="<?php echo $dados_user['sobrenome'];?> "/>
           
         </div>
         <div id="shipping_address_address" class="field text-field">
           <label for="order_shipping_address_address">Endereço <em>*</em></label>
-          <input type="text" name="order_shipping_address[address]" id="order_shipping_address_address" class="text" required="required" autocomplete="street-address" />
+          <input type="text" name="endereco" id="order_shipping_address_address" class="text" required="required" autocomplete="street-address" value="<?php echo $dados_user['endereco'];?>"/>
           
         </div>
         <div id="shipping_address_city" class="field text-field">
           <label for="order_shipping_address_city">Cidade <em>*</em></label>
-          <input type="text" name="order_shipping_address[city]" id="order_shipping_address_city" class="text" required="required" autocomplete="address-level2" />
+          <input type="text" name="cidade" id="order_shipping_address_city" class="text" required="required" autocomplete="address-level2" value="<?php echo $dados_user['cidade'];?>"/>
           
         </div>
         <div id="shipping_address_postal" class="field text-field" style="">
           <label for="order_shipping_address_postal">CEP</label>
-          <input type="text" name="order_shipping_address[postal]" id="order_shipping_address_postal" class="text" autocomplete="postal-code" />
+          <input type="text" name="cep" id="order_shipping_address_postal" class="text" autocomplete="postal-code" value="<?php echo $dados_user['cep'];?>"/>
           
         </div>
 
@@ -83,9 +141,9 @@ $produtos = getProdutos( $_SESSION['pedidos']);
 
         <div id="shipping_address_country" class="field select-field">
           <label for="order_shipping_address_country">País<em>*</em></label>
-          <select name="order_shipping_address[country]" id="order_shipping_address_country" class="select" autocomplete="country"><option value=""></option>
+          <select name="pais" value="<?php echo $dados_user['pais'];?>" id="order_shipping_address_country" class="select"><option value=""></option>
 
-<option value="BR">Brasil</option>
+<option value="Brasil" selected>Brasil</option>
 
 </select>
           
@@ -93,8 +151,8 @@ $produtos = getProdutos( $_SESSION['pedidos']);
 
         <div id="shipping_address_region" class="field select-field">
           <label for="order_shipping_address_region">Estado <em>*</em></label>
-          <select name="order_shipping_address[region]" id="order_shipping_address_region" class="select" autocomplete="address-level1"><option value=""></option>
-          <option>Acre</option>
+          <select name="uf" value="<?php echo $dados_user['uf'];?> id="order_shipping_address_region" class="select" autocomplete="address-level1"><option value=""></option>
+                  <option value="Acre">Acre</option>
                   <option>Alagoas</option>
                   <option>Amapá</option>
                   <option>Amazonas</option>
@@ -208,12 +266,9 @@ $produtos = getProdutos( $_SESSION['pedidos']);
             <li>
 
               <input type="radio" name="order[shipping_method]" value="25573" id="order_shipping_method_25573" class="radiobox" checked="checked" />
-              <span>Retirar na loja</span>
+              <span>Envio Grátis</span>
             </li>
-            <li>
-
-              <input type="radio" name="order[shipping_method]" value="26338" id="order_shipping_method_26338" class="radiobox" />
-              <span>Envio Gratis</span>
+            
            
 
               
@@ -222,7 +277,7 @@ $produtos = getProdutos( $_SESSION['pedidos']);
       </div>
     </div>
     <div class="actions">
-      <input type="submit" value="Finalizar Pedido" class="button" id="submit_review_order" />
+      <input type="submit" value="Finalizar Pedido" name="pedido"class="button" id="submit_review_order" />
     </div>
 </form>
  

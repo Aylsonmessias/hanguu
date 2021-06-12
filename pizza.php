@@ -85,14 +85,8 @@
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text"></p>
                                     <div class="btn-group">
-                                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Tamanho
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Pequena</a>
-                                        <a class="dropdown-item" href="#">Média</a>
-                                        <a class="dropdown-item" href="#">Grande</a>
-                                    </div>
+                                    <button class="btn btn-secondary btn-sm" type="button"  aria-haspopup="true"> Tam: Médio</button>
+                                    
                                     </div>
                                 </div>
                                 <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=11" >ADD Carrinho</a></div>
@@ -107,14 +101,7 @@
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text"></p>
                                     <div class="btn-group">
-                                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Tamanho
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Pequena</a>
-                                        <a class="dropdown-item" href="#">Média</a>
-                                        <a class="dropdown-item" href="#">Grande</a>
-                                    </div>
+                                    <button class="btn btn-secondary btn-sm" type="button"  aria-haspopup="true"> Tam: Médio</button>
                                     </div>
                                 </div>
                                 
@@ -129,14 +116,7 @@
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text"></p>
                                     <div class="btn-group">
-                                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Tamanho
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Pequena</a>
-                                        <a class="dropdown-item" href="#">Média</a>
-                                        <a class="dropdown-item" href="#">Grande</a>
-                                    </div>
+                                    <button class="btn btn-secondary btn-sm" type="button"  aria-haspopup="true"> Tam: Médio</button>
                                     </div>
                                 </div>
                                 <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=13" >ADD Carrinho</a></div>
@@ -150,14 +130,7 @@
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text"></p>
                                     <div class="btn-group">
-                                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Tamanho
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Pequena</a>
-                                        <a class="dropdown-item" href="#">Média</a>
-                                        <a class="dropdown-item" href="#">Grande</a>
-                                    </div>
+                                    <button class="btn btn-secondary btn-sm" type="button"  aria-haspopup="true"> Tam: Médio</button>
                                     </div>
                                 </div>
                                 <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=14" >ADD Carrinho</a></div>
@@ -171,14 +144,7 @@
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text"></p>
                                     <div class="btn-group">
-                                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Tamanho
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Pequena</a>
-                                        <a class="dropdown-item" href="#">Média</a>
-                                        <a class="dropdown-item" href="#">Grande</a>
-                                    </div>
+                                    <button class="btn btn-secondary btn-sm" type="button"  aria-haspopup="true"> Tam: Médio</button>
                                     </div>
                                 </div>
                                 <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=15" >ADD Carrinho</a></div>
@@ -192,14 +158,7 @@
                                     <h5>R$ 24.99</h5>
                                     <p class="card-text"></p>
                                     <div class="btn-group">
-                                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Tamanho
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Pequena</a>
-                                        <a class="dropdown-item" href="#">Média</a>
-                                        <a class="dropdown-item" href="#">Grande</a>
-                                    </div>
+                                    <button class="btn btn-secondary btn-sm" type="button"  aria-haspopup="true"> Tam: Médio</button>
                                     </div>
                                 </div>
                                 <div class="card-footer"><a class="btn btn-block btn-primary text-uppercase" href="addCarinho.php?id_produto=16" >ADD Carrinho</a></div>

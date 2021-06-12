@@ -1,5 +1,5 @@
 <?php
-session_start();
+@session_start();
 // METODO RESPOSAVEL POR FAZER A CONEXÃO COM O BANCO
 class Conexao
 {

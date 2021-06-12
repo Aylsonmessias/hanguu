@@ -26,7 +26,7 @@
               </div>
               <div class="form-label-group">
                 <input type="text" id="fone" name="fone" class="form-control" placeholder="fone" required>
-                <label for="fone">Telefone</label>
+                <label for="fone">Tefone</label>
               </div>
             
             
