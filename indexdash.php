@@ -4,7 +4,45 @@
 <?php
    include "_includes/header.php"
 
-   ?>
+@session_start();
+
+
+
+if (!isset($_SESSION['admin'])) {
+    header("Location: login.php");
+}
+require './../Model/conexao.php';
+require './../Model/UsuarioDao.php';
+require './../Model/Pedidos.php';
+
+
+$pedidos = all();
+
+$l = allLucro();
+
+?>
+   
+   <h1>Lucro : <?php echo array_sum(array_column($l, 'total'));?></h1>
+
+<?php foreach($pedidos as $p): ?>
+
+    <div>
+
+        Situaçao <?php
+        
+        
+        if ($p['andamento'] == 0) {
+            echo "para entregar";
+            echo "<a href=entregar.php?id=".$p['id'].">Entregar</a>";
+        } else {
+            echo "Pedido entreque";
+        }
+        
+        
+        
+        ?>
+    </div>
+<?php endforeach; ?>
 
 
     <head>
@@ -40,12 +78,7 @@
          
 
     
-               <!-- <div class="input-group">
-                    <input class="form-control" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" />
-                    <div class="input-group-append">
-                        <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
-                    </div>
-                </div> -->
+             
             </form>
             <!-- Navbar-->
             <ul class="navbar-nav ml-auto ml-md-0">
@@ -135,7 +168,7 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid">
-                        <h1 class="mt-4">Painel Adminstrativo</h1>
+                        <h1 class="mt-4">Pedidos</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active">Hanguu Delivery</li>
                         </ol>

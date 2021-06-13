@@ -1,3 +1,5 @@
+
+
 <?php 
 @session_start();
 
@@ -11,9 +13,11 @@ require './../Model/UsuarioDao.php';
 require './../Model/Pedidos.php';
 
 
+
 $pedidos = all();
 
 $l = allLucro();
+
 ?>
 
 
@@ -30,7 +34,7 @@ $l = allLucro();
             echo "para entregar";
             echo "<a href=entregar.php?id=".$p['id'].">Entregar</a>";
         } else {
-            echo "Pedido entreque";
+            echo "Pedido entregue";
         }
         
         
@@ -39,7 +43,12 @@ $l = allLucro();
     </div>
 <?php endforeach; ?>
 
+
+
 <a href="sair.php">Sair</a>
+
+
+
 
 
 

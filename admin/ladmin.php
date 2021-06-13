@@ -22,7 +22,7 @@ if (!empty($_POST['email'])) {
             echo "aqui";
             $_SESSION['admin']=$id;
             
-            //header('Location: index.php'); // REDIRECIONAMENTO DE PAGINA
+            header('Location: index.php'); // REDIRECIONAMENTO DE PAGINA
 
         else :
             

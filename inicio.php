@@ -29,7 +29,7 @@
 					</div>
 				</div>
 				 <div class="d-flex justify-content-center form_container">
-					<!--<form>
+					<form>
 						<div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -45,8 +45,8 @@
 						<div class="form-group">
 							<div class="custom-control custom-checkbox">
 								<input type="checkbox" class="custom-control-input" id="customControlInline">
-								<label class="custom-control-label" for="customControlInline">Manter-me Conectado</label>
-							</div> -->
+								
+							</div> 
 						</div>
 							<div class="d-flex justify-content-center mt-3 login_container">
                             <a href="tipodelogin.php" button type="button" name="button" class="btn login_btn">ENTRAR</a></button>
@@ -54,20 +54,9 @@
 				   </div>
 
 
-                   <div class="d-flex justify-content-center mt-3 login_container">
-				 	<a href="tipodecadastro.php" button type="button" name="button" class="btn login_btn">CADASTRE-SE</a></button>
-                     
-                     
-				   </div>
-					</form>
 				</div>
 		
-			<!--	<div class="mt-4">
-					<div class="d-flex justify-content-center links">
-						Don't have an account? <a href="#" class="ml-2">Sign Up</a>
-					</div>
-					<div class="d-flex justify-content-center links">
-						<a href="#">Forgot your password?</a> -->
+			
 					</div>
 				</div>
 			</div>

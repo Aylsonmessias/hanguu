@@ -24,5 +24,6 @@
         <link href="css/search.css" rel ="stylesheet"/>
         <link href="css/inicio.css" rel ="stylesheet"/>
         <link href="css/footer.css" rel ="stylesheet"/>
+        
     </head>
   
