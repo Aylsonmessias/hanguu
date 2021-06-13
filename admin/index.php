@@ -66,7 +66,7 @@ $l = allLucro();
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Plataforma</div>
-                            <a class="nav-link" href="hanguu.com.br">
+                            <a class="nav-link" href="#">
                                 <div class="sb-nav-link-icon"></div>
                                 <img src="logohanguu.png"/>
                             </a>

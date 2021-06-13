@@ -58,7 +58,7 @@ require "Model/Pedidos.php";
         
                     <?php foreach(getPedidos() as $p): ?>
                   <div>
-                      <h5>Pedido Núm: <?php echo $p['id'];?></h5>
+                      <h5>Pedido #<?php echo $p['id'];?></h5>
                       <a  class="btn btn-outline-warning btn-sm" href="p.php?pedido=<?php echo $p['id']; ?> ">Ver detalhes</a><br>
                     
                   </div>

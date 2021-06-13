@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <?php
 require 'Model/conexao.php';
 require "Model/Produtos.php";
@@ -20,47 +23,72 @@ if (empty($pedido)) {
 
 ?>
 
+<body>
+<div id="layoutSidenav_content">
 
-<h1>Pedidos</h1>
-<table>
-    <tr>
-        <td>Produto</td>
-        <td>Quantidade</td>
-        <td>Valor unitario</td>
-        <td>Valor Total</td>
-
-    </tr>
-
-
+        
+        <div class="container-fluid">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-8"><h2>Detalhes do <b>Pedido</b></h2></div>
+                    <div class="col-sm-4">
+                </div>
+            </div>
+            <table class="table table-striped table-hover table-bordered ">
+                <thead>
+                    <tr>
+                        
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Valor</th>
+                        <th>Subtotal</th>
+                        <th>Status</th>
+                    </tr>    
+                </thead>
+                <tbody> 
+        
     <?php foreach ($pedido as $p): ?>
+        
+            <?php 
+            
+            $situacao = $p['andamento'];
+            
+            ?>
         <tr>
-        <?php 
-        
-        $situacao = $p['andamento'];
-        
-        ?>
-        <td><?php echo $p['titulo'];?></td>
-        <td><?php echo $p['quantidade'];?></td>
-        <td><?php echo $p['preco'];?></td>
-        <td><?php echo $p['total'];?></td>
-        </tr>
-    <?php endforeach; ?>
-</table>
+            <td><?php echo $p['titulo'];?></td>
+            <td><?php echo $p['quantidade'];?></td>
+            <td>R$ <?php echo $p['preco'];?></td>
+            <td>R$ <?php echo $p['total'];?></td>
+            <td><?php if ($situacao == 0) {
+                    echo "Aguardando entrega";
+                } else {
+                    echo "Entregue";
+                }
 
-<h5>Status: 
+                ?>
+        </tr> 
+        <?php endforeach; ?>
 
-<?php 
+             
+             <table class="table table-striped">
+    
+              <td colspan="1" class="text-left"><strong>Total do pedido </strong></td>
+              <td colspan="1" class="text-right"><strong>R$ <?php echo array_sum(array_column($pedido, 'total'));?></strong></td>    
 
-if ($situacao == 0) {
-    echo "Aguardando entrega";
-} else {
-    echo "Entregue!";
-}
+            </tr>
+            </thead>
+            </table>
 
-?>
+   
 
-</h5>
-<h5>Valor Pedido: R$ <?php echo array_sum(array_column($pedido, 'total'));?></h5>
+
+
+
+
+
+
+</body>
+</html>
 
 <?php
   include"_includes/footer.php"
