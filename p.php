@@ -14,7 +14,7 @@ $pedido = getPedidoId($_GET['pedido']);
 
 
 if (empty($pedido)) {
-    echo "Pedido n encontrado";
+    echo "Pedido não encontrado";
     return;
 }
 
@@ -54,7 +54,7 @@ if (empty($pedido)) {
 if ($situacao == 0) {
     echo "Para entregar";
 } else {
-    echo "entrege";
+    echo "entregue";
 }
 
 ?>

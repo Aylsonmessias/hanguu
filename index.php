@@ -30,7 +30,7 @@
 
                         <?php else: ?>
                                         
-                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodecadastro.php">Cadastre-se</a></li>
+                            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="cadastrouser.php">Cadastre-se</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tipodelogin.php">Entrar</a></li>
                         
                         

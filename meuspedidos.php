@@ -20,8 +20,8 @@ require "Model/Pedidos.php";
 <body id="page-top">
 
 <div class="alert alert-success" role="alert">
-  <h4 class="alert-heading">Recebos o seu Pedido!</h4>
-  <p>Em breve ele será entregue para você!</p>
+  <h4 class="alert-heading">Recebemos o seu Pedido!</h4>
+  <p>Em breve ele será entregue para você.</p>
   <hr>
   
   

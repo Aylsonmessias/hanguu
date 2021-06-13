@@ -15,8 +15,8 @@
            
           
             
-            <a href="loginadmin.php" class="btn btn-block btn-primary text-uppercase">Realizar Login</a>
-            <a class="d-block text-center mt-2 small" href="cadastroloja.php" >CADASTRE-SE AQUI!</a>
+            <a href="admin\login.php" class="btn btn-block btn-primary text-uppercase">Realizar Login</a>
+            
             <!--<a href="cadastroloja.php" class="btn btn-block btn-primary text-uppercase">Cadastrar</a>-->
           </div>
         </div>
