@@ -47,14 +47,14 @@ if (empty($pedido)) {
     <?php endforeach; ?>
 </table>
 
-<h5>Situação: 
+<h5>Status: 
 
 <?php 
 
 if ($situacao == 0) {
-    echo "Para entregar";
+    echo "Aguardando entrega";
 } else {
-    echo "entregue";
+    echo "Entregue!";
 }
 
 ?>
